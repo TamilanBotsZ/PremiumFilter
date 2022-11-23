@@ -54,7 +54,8 @@ You can deploy this bot anywhere.
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/itsyogieu/TechMagazineEvaMaria&branch=main&name=afpsbot
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/BinBashBanana/deploy-buttons&branch=main&name=deploy-buttons"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank"
 
 
 <details><summary>Deploy To Heroku</summary>
