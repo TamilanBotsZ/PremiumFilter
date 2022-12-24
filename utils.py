@@ -386,5 +386,4 @@ async def get_shortlink(link):
             return await shortz.get_quick_link(link)
         else:
             return await shortz.convert(link, silently_fail=False)
-
     return link
