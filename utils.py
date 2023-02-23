@@ -377,13 +377,27 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-#shortzy
 
-shortz = shortzy.shortzy(SHORTENER_API, "shorturllink.in")
 async def get_shortlink(link):
-    if SHORTENER_API:
-        if LONG_DROPLINK_URL =="True" or LONG_DROPLINK_URL is True:
-            return await shortz.get_quick_link(link)
-        else:
-            return await shortz.convert(link, silently_fail=False)
-    return link
+    https = link.split(":")[0]
+    if "http" == https:
+        https = "https"
+        link = link.replace("http", https)
+    url = f'https://Shorturllink.in/api'
+    params = {'api': SHORT_API,
+              'url': link,
+              }
+
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
+                data = await response.json()
+                if data["status"] == "success":
+                    return data['shortenedUrl']
+                else:
+                    logger.error(f"Error: {data['message']}")
+                    return f'https://{SHORT_SITE}/api?api={SHORT_API}&link={link}'
+
+    except Exception as e:
+        logger.error(e)
+        return f'{SHORT_SITE}/api?api={SHORT_API}&link={link}'
