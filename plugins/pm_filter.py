@@ -404,13 +404,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TechMagazineYT')
-        ], [
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+m3lsH6NZBlE1MWJl'),
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            ],[
+            InlineKeyboardButton('👋 Exᴛʀᴀ Bᴜᴛᴛᴏɴs 👋', callback_data= 'about'),
+            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         await query.answer('Piracy Is Crime')
-    elif query.data == "help":
+    elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
@@ -438,11 +438,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/TechMagazineYT'),
+            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
             InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f'https://telegram.me/share/url?url=** Hi Brother / Sister
 Click This Link :- t.me/{temp.U_NAME} & Press Start
 
 That Bot Have 8Lakh Movies / Series Files 🔥**')
+        ], [
+            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+        ], [
+            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ﹝ʀᴇᴩᴏ﹞ 😊', callback_data='source')
         ], [
             InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
@@ -455,6 +459,8 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         )
     elif query.data == "source":
         buttons = [[
+            InlineKeyboardButton('😙 AᴜᴛᴏFɪʟᴛᴇʀ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Rᴇᴩᴏ 😙', url='https://github.com/TamilanBotsZ/AwesomeFilterPro')
+        ], [
             InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -463,9 +469,9 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "manuelfilter":
+    elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
             InlineKeyboardButton('⏹️ Bᴜᴛᴛᴏɴs', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
