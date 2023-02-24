@@ -421,18 +421,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
-        ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
-        ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text=script.EXTRA_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -444,7 +437,7 @@ Click This Link :- t.me/{temp.U_NAME} & Press Start
 
 That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ﹝ʀᴇᴩᴏ﹞ 😊', callback_data='source')
