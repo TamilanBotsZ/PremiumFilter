@@ -451,6 +451,8 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
+            InlineKeyboardButton('▶ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs ◀', callback_data='extra')
+        ], [
             InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
@@ -463,6 +465,8 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('😙 AᴜᴛᴏFɪʟᴛᴇʀ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Rᴇᴩᴏ 😙', url='https://github.com/TamilanBotsZ/AwesomeFilterPro')
+        ], [
+            InlineKeyboardButton('😥 Bᴜʏ Tʜɪs Bᴏᴛ Rᴇᴩᴏ ﹝ᴩᴀɪᴅ﹞ ☺', callback_data='contact')
         ], [
             InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
         ]]
