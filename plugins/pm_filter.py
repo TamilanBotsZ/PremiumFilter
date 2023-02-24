@@ -445,8 +445,11 @@ Click This Link :- t.me/{temp.U_NAME} & Press Start
 That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ﹝ʀᴇᴩᴏ﹞ 😊', callback_data='source')
+        ], [
+            InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
             InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
@@ -471,8 +474,10 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
-            InlineKeyboardButton('⏹️ Bᴜᴛᴛᴏɴs', callback_data='button')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13'),
+            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
+        ], [
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -480,54 +485,18 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "button":
+    elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='manuelfilter')
+            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/SharathItsIsMe),
+        ], [     
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/TamilanBotsZ_Support')
+        ], [  
+            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
+        ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.BUTTON_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "autofilter":
-        buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.AUTOFILTER_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "coct":
-        buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.CONNECTION_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "extra":
-        buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ ', callback_data='help'),
-            InlineKeyboardButton('👮‍♂️ Aᴅᴍɪɴ', callback_data='admin')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.EXTRAMOD_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "admin":
-        buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='extra')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ADMIN_TXT,
+            text=script.CONTACT_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
