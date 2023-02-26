@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '14505719'))
-API_HASH = environ.get('API_HASH', '620f0a2aa2cd1474a4953619b3e3643d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5616647405:AAEcTWyRY3O3nI1BkLK3whfGZ-dLXLsUKxc")
+API_ID = int(environ.get('API_ID', '18466786'))
+API_HASH = environ.get('API_HASH', 'd2ce12c5c963cbb2210a669def0868aa')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6084905112:AAHfBvLSUrhH7wE0ezQSWtU5zVF-xIMaPeg")
 
 # Bot settings
 
@@ -23,12 +23,12 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/a1c55927c9f2f0f95a987.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/1d0a2c18fe400858da722.jpg')).split()
 
 # Admins, Channels & Users
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1893496887').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001654571042').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001880914188').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001674828759')
@@ -37,21 +37,21 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://KK:KK@cluster0.tgo1f1m.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "KK")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://EARN:EARN@cluster0.khsles8.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "EARN")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001654571042'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001807926932'))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilanMoviesChat')
 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "FILE : <code>{file_name}</code>\nSize : <i>{file_size}</i>\nCAPTION: {file_caption}\n<b>Join [Here](https://t.me/+Ph71PzEOzSM4ZTJl)</b>")
 
@@ -59,9 +59,9 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "FILE : <code>{file_name}
 
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 
-LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
+LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), True)
 
-SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
+SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
@@ -69,9 +69,9 @@ INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 
-MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
+MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
