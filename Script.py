@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """<b>Hᴇʏ {} ɪᴍ 『 ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ 』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.
-Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ ⤵⤵⤵</b>"""
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
-    HELP_TXT = """Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs ⤵⤵⤵."""
+    HELP_TXT = """Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇"""
 
     PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ</b>
 
@@ -25,11 +25,11 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ ⤵⤵⤵</b>"""
     SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ </b>
 ﹤b﹥- Iғ Yᴏᴜ Wᴀɴᴛ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴩᴩᴏʀᴛ Rᴇᴩᴏ Mᴇᴀɴs Usᴇ Oᴜʀ Aɴᴏᴛʜᴇʀ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Rᴇᴩᴏ ↙↙↘↘ </b> """
 
-    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 ⤵⤵⤵
-- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ ➡ @TamilanMoviesChat
+    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋
+- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
 - Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ
 - Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
-- Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ.➡ https://t.me/Sharath_Links/13﹤/b>
+- Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13﹤/b>
 
     EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗</b>
 - <b>➡ /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
