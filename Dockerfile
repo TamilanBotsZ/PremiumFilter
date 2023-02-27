@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /VoiceOfSha
+WORKDIR /Alexa
 
 COPY requirements.txt ./
 
