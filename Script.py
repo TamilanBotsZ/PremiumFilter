@@ -31,8 +31,8 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ ⤵⤵⤵</b>"""
 - Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
 - Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ.➡ https://t.me/Sharath_Links/13﹤/b>
 
-    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗
-- ➡ /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
+    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗</b>
+- <b>➡ /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
 - ➡ /info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ
 - ➡ /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ
 - ➡ /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs ﹤/b﹥"""
