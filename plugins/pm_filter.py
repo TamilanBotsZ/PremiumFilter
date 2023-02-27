@@ -119,20 +119,20 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton﹙"◀ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+            [InlineKeyboardButton﹙"‹‹‹ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(f"📃 Pᴀɢᴇs {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("Nᴇxᴛ ▶", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("◀ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("Nᴇxᴛ ▶", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -244,7 +244,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}"),
              InlineKeyboardButton("🚫 Dᴇʟᴇᴛᴇ 🚫", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("◀ Bᴀᴄᴋ", callback_data="backcb")]
+            [InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ", callback_data="backcb")]
         ])
 
         await query.message.edit_text(
@@ -449,7 +449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about'),
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -472,9 +472,9 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
-            InlineKeyboardButton('▶ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs ◀', callback_data='extra')
+            InlineKeyboardButton('»»» Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs ««« ', callback_data='extra')
         ], [
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -489,7 +489,7 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
             InlineKeyboardButton('😥 Bᴜʏ Tʜɪs Bᴏᴛ Rᴇᴩᴏ ﹝ᴩᴀɪᴅ﹞ ☺', callback_data='contact')
         ], [
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -500,7 +500,7 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
     elif query.data == "info":
         buttons = [[
             InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13'),
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ]]
@@ -516,7 +516,7 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [     
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/TamilanBotsZ_Support')
         ], [  
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -527,7 +527,7 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
         )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -546,7 +546,7 @@ That Bot Have 8Lakh Movies / Series Files 🔥**')
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('◀ Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
         req = message.from_user.id if message.from_user else 0
         btn.append(
             [InlineKeyboardButton(text=f"🗓 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="Nᴇxᴛ ▶", callback_data=f"next_{req}_{key}_{offset}")]
+             InlineKeyboardButton(text="Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
