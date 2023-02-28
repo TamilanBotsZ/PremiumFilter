@@ -461,8 +461,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
-            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f'https://telegram.me/share/url?url=** Hi Brother / Sister
-Click This Link :- t.me/{temp.U_NAME} & Press Start
+            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f'https://telegram.me/share/url?url=**Hi Brother / Sister
+Click This Link :- t.me/{temp.U_NAME} & Press Start﹡﹡
 
 That Bot Have 8Lakh Movies / Series Files 🔥**')
         ], [
