@@ -447,17 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-        await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
-    elif query.data == "extra":
-        buttons = [[
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about'),
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.EXTRA_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+        
         )
     elif query.data == "about":
         buttons = [[
@@ -481,6 +471,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
+        )
+
+        await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+
+    elif query.data == "extra":
+
+        buttons = [[
+
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about'),
+
+        ]]
+
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await query.message.edit_text(
+
+            text=script.EXTRA_TXT.format(query.from_user.mention),
+
+            reply_markup=reply_markup,
+
+            parse_mode=enums.ParseMode.HTML
+
+
         )
     elif query.data == "source":
         buttons = [[
