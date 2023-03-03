@@ -4,23 +4,23 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
-    PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ</b>
+    PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ
 
-- <b>›› Mᴜsᴛ Aᴅᴅ Mᴇ Aᴅᴍɪɴ Tᴏ Wᴏʀᴋ Oɴ Tʜɪs Gʀᴏᴜᴘ</b>
+- ›› Mᴜsᴛ Aᴅᴅ Mᴇ Aᴅᴍɪɴ Tᴏ Wᴏʀᴋ Oɴ Tʜɪs Gʀᴏᴜᴘ
 
-- <b>›› Cʜᴀɴɢᴇ Sᴇᴛᴛɪɴɢ Fᴏʀ Uʀ Gʀᴏᴜᴘ Cʟɪᴄᴋ 👉 /connect</b>
+- ›› Cʜᴀɴɢᴇ Sᴇᴛᴛɪɴɢ Fᴏʀ Uʀ Gʀᴏᴜᴘ Cʟɪᴄᴋ 👉 /connect
 
-- <b>›› I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇs Dᴏɴ'ᴛ Wᴏʀʀʏ</b>
+- ›› I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇs Dᴏɴ'ᴛ Wᴏʀʀʏ
 
-- <b>›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
+- ›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
 
     ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamilanz_Auto_Filter_Bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme>sʜᴀʀᴀᴛʜ</a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 Fʀᴇᴇ Hᴏsᴛɪɴɢ</b>
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31><b>24/7 Fʀᴇᴇ Hᴏsᴛɪɴɢ/n</b>
+📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>/n<b>
+🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° /n<b>"""
 
     SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ ﹤/b﹥
 Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤b﹥"""
