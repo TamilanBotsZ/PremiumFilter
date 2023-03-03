@@ -42,7 +42,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 »» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
 »» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs ↘↘↘ </b>"""
 
-   BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ﹤/b﹥
+    BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ﹤/b﹥
 - <b> Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs ﹤/b﹥
 - ﹤b﹥ Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ ﹤/b﹥
 - <b> Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ ﹤/b﹥
