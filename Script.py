@@ -43,7 +43,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 »» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs ↘↘↘ </b>"""
 
    BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ﹤/b﹥
-- <b> Pᴏsᴛ Mʏ Lɪɴᴋ Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs ﹤/b﹥
+- <b> Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs ﹤/b﹥
 - ﹤b﹥ Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ ﹤/b﹥
 - <b> Pʀᴏᴍᴏᴛᴇ Mʏ Rᴇᴩᴏ Lɪɴᴋ Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ ﹤/b﹥
 - <b> Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ ﹤/b﹥
