@@ -458,7 +458,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ﹝ʀᴇᴩᴏ﹞ 😊', callback_data='source')
+            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
@@ -499,9 +499,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('😙 AᴜᴛᴏFɪʟᴛᴇʀ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Rᴇᴩᴏ 😙', url="https://github.com/TamilanBotsZ/AwesomeFilterPro")
-        ], [
-            InlineKeyboardButton('😥 Bᴜʏ Tʜɪs Bᴏᴛ Rᴇᴩᴏ ﹝ᴩᴀɪᴅ﹞ ☺', callback_data='contact')
+
+            InlineKeyboardButton('👜 Bᴜʏ Nᴏᴡ 💎', callback_data='buy')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
