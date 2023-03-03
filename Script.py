@@ -23,11 +23,11 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
     SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ </b>
-- ﹤b﹥ Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤/b﹥"""
+﹤b﹥ - Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤/b﹥"""
 
 
-    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋
-- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
+    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋</b>
+<b>- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
 - Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ
 - Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
 - Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13﹤/b>"""
@@ -40,14 +40,14 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
     CONTACT_TXT = """<b> 
 »» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
-»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs ↘↘↘ </b>"""
+»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙 </b>"""
 
     BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ﹤/b﹥
-- <b> Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs ﹤/b﹥
-- ﹤b﹥ Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ ﹤/b﹥
-- <b> Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ ﹤/b﹥
-- <b> Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ ﹤/b﹥
-- <b> Gɪᴠᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Rᴇᴩᴏ Aɴᴅ I Aʟsᴏ Gɪᴠᴇ ﹤/b>
+<b>- Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs﹤/b﹥
+﹤b﹥- Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ﹤/b﹥
+<b>- Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ﹤/b﹥
+<b>- Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ﹤/b﹥
+<b>- Gɪᴠᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Rᴇᴩᴏ Aɴᴅ I Aʟsᴏ Gɪᴠᴇ﹤/b>
 
 <b>Fᴏʟʟᴏᴡ Aɴʏ 1 Rᴜʟᴇs Aɴᴅ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ Fʀᴏᴍ Mᴇ ✔</b>"""
 
