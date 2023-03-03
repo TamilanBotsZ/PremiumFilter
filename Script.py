@@ -22,34 +22,47 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
-    SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ </b>
-﹤b﹥ - Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤/b﹥"""
+    SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ
+Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤/b﹥"""
 
 
     MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋</b>
-<b>- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
-- Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ
-- Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
-- Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13﹤/b>"""
+<b>Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
+
+Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ
+
+Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
+
+Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13﹤/b>"""
 
     EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗</b>
-<b>»»» /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
+<b>
+»»» /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
+
 »»»/info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ
+
 »»» /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ
+
 »»» /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs ﹤/b﹥"""
 
     CONTACT_TXT = """<b> 
 »» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
-»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙 </b>"""
+
+»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙</b>"""
 
     BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ﹤/b﹥
-<b>- Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs﹤/b﹥
-﹤b﹥- Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ﹤/b﹥
-<b>- Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ﹤/b﹥
-<b>- Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ﹤/b﹥
-<b>- Gɪᴠᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Rᴇᴩᴏ Aɴᴅ I Aʟsᴏ Gɪᴠᴇ﹤/b>
 
-<b>Fᴏʟʟᴏᴡ Aɴʏ 1 Rᴜʟᴇs Aɴᴅ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ Fʀᴏᴍ Mᴇ ✔</b>"""
+<b>Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs
+
+👉Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ
+
+👉Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ
+
+👉Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ
+
+👉Gɪᴠᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Rᴇᴩᴏ Aɴᴅ I Aʟsᴏ Gɪᴠᴇ
+
+Fᴏʟʟᴏᴡ Aɴʏ 1 Rᴜʟᴇs Aɴᴅ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ Fʀᴏᴍ Mᴇ ✔</b>"""
 
     STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
     
