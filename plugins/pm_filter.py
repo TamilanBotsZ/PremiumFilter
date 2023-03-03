@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
-            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url='https://telegram.me/share/url?url=**Hi Brother / Sister Click This Link :- @Tamilanz_Auto_Filter_Bot & Press Start That Bot Have 8Lakh Movies / Series Files 🔥**')
+            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f'https://t.me/share/url?url=t.me/{temp.U_NAME}')
         ], [
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
