@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """<b>Hᴇʏ {} ɪᴍ 『 ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ 』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.
 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
-    HELP_TXT = """Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇"""
+    HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
     PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ</b>
 
@@ -23,7 +23,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
     SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ </b>
-﹤b﹥- Iғ Yᴏᴜ Wᴀɴᴛ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴩᴩᴏʀᴛ Rᴇᴩᴏ Mᴇᴀɴs Usᴇ Oᴜʀ Aɴᴏᴛʜᴇʀ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Rᴇᴩᴏ ↙↙↘↘ </b> """
+﹤b﹥- Iғ Yᴏᴜ Wᴀɴᴛ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴩᴩᴏʀᴛ Rᴇᴩᴏ Mᴇᴀɴs Usᴇ Oᴜʀ Aɴᴏᴛʜᴇʀ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Rᴇᴩᴏ ✓ </b> """
 
     MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋
 Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat
