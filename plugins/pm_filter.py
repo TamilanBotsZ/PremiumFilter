@@ -104,7 +104,52 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+    try:
+        if settings['auto_delete']:
+            btn.insert(0, 
+            [
+                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+            ]
+            )
 
+        else:
+            btn.insert(0, 
+            [
+                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+            ]
+            )
+                
+    except KeyError:
+        grpid = await active_connection(str(query.message.from_user.id))
+        await save_group_settings(grpid, 'auto_delete', True)
+        settings = await get_settings(query.message.chat.id)
+        if settings['auto_delete']:
+            btn.insert(0, 
+            [
+                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+            ]
+            )
+
+        else:
+            btn.insert(0, 
+            [
+                InlineKeyboardButton(f'😇 Info', 'tips'),
+                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+            ]
+            )
+    try:
+        settings = await get_settings(query.message.chat.id)
+        if settings['max_btn']:
+            if 0 < offset <= 10:
+                off_set = 0
+            elif offset == 0:
+                off_set = None
+            else:
+                off_set = offset - 10
+            if n_offset == 0:
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
