@@ -150,7 +150,7 @@ async def next_page(bot, query):
             else:
                 off_set = offset - 10
             if n_offset == 0:
-    btn.insert(0,
+    btn.insert(
         [
             InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
         ]
