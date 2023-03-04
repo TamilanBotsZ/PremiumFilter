@@ -23,7 +23,7 @@ async def series(_, message):
 
 @Client.on_message(filters.command("download", CMD))
 async def tutorial(_, message):
-    await message.reply_text("Fɪʀsᴛ Sᴇᴇ Tʜɪʏᴜʏ")
+    await message.reply_text("Fɪʀsᴛ Cʟɪᴄᴋ Tʜɪs Lɪɴᴋ 👉 https://t.me/Sharath_Links/13/n/nAғᴛᴇʀ Wᴀᴛᴄʜᴇᴅ Tʜᴇ Vɪᴅᴇᴏ Sᴇɴᴅ Aɴʏ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏᴛᴛᴇᴄᴛ Sᴩᴇʟʟɪɴɢ Aɴᴅ I Wɪʟʟ Sᴇɴᴅ Tʜᴇ Fɪʟᴇ Lɪɴᴋ/n/nCᴏʀʀᴇᴄᴛ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /movies /n/nCᴏʀʀᴇᴄᴛ Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛɪɴɢ Mᴇᴛʜᴏᴅ 👉 /series")
 
 @Client.on_message(filters.command("ping", CMD))
 async def ping(_, message):
@@ -31,4 +31,4 @@ async def ping(_, message):
     rm = await message.reply_text("...........")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"𝖯𝗂𝗇𝗀!\n{time_taken_s:.3f} ms")
+    await rm.edit(f"Pɪɴɢ•!\n{time_taken_s:.3f} ms")
