@@ -428,12 +428,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False
         )
-    elif query.data == 'series':
-        await query.answer("⚠️❗️ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ❗️⚠️\n\n📝 ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ 📚\n\n🖇 Exᴀᴍᴩʟᴇ:\n\n• Robin Hood ✅\n• Ponniyan Selvan 250mb✅\n• Varisu 2023✅\n• Master Tam✅\n\n❌ DᴏɴˆT Usᴇ Aɴʏ Sʏᴍʙᴏʟs ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞❌", True)
-    
-    elif query.data == 'movies':
-        await query.answer("⚠️❗️ Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ ❗️⚠️\n\n🗣﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ 🧠\n\n🖇Exᴀᴍᴩʟᴇ: \n\n• Game Of Thrones Season Season 1✅\n• Sex Education episode 2✅ \n• Breaking Bad S01E05✅\n\n❌ DᴏɴˆT Usᴇ Aɴʏ Sʏᴍʙᴏʟs ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ ❌", True)
-
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
@@ -467,7 +461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
-            InlineKeyboardButton('😙 Exᴛʀᴀ ғᴇᴀᴛᴜʀᴇs 😙', callback_data='movies'﹚
+            InlineKeyboardButton('😙 Exᴛʀᴀ ғᴇᴀᴛᴜʀᴇs 😙', callback_data='extra'﹚
             InlineKeyboardButton﹙'📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pong'﹚
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
