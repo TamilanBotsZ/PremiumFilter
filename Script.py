@@ -20,7 +20,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme>sʜᴀʀᴀᴛʜ</a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 Fʀᴇᴇ Hᴏsᴛɪɴɢ
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 Fʀᴇᴇ Hᴏsᴛɪɴɢ</a>
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
