@@ -546,19 +546,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
 
         )
-    elif query.data == "buy":
-        buttons = [[
-
-            InlineKeyboardButton('👜 Cᴏɴᴛᴀᴄᴛ 💎', url='https://t.me/SharathItsIsMe')
-        ], [
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='source')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.BUY_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
     elif query.data == "pong":
         buttons = [[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='source')
@@ -572,7 +559,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('👜 Bᴜʏ Nᴏᴡ 💎', callback_data='buy')
+            InlineKeyboardButton('Rᴇᴩᴏ', callback_data='buy')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
