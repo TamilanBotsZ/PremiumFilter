@@ -117,53 +117,6 @@ async def next_page(bot, query):
     else:
         off_set = offset - 10
     if n_offset == 0:
-     try:
-        if settings['auto_delete']:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-
-        else:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-                
-    except KeyError:
-        grpid = await active_connection(str(query.message.from_user.id))
-        await save_group_settings(grpid, 'auto_delete', True)
-        settings = await get_settings(query.message.chat.id)
-        if settings['auto_delete']:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-
-        else:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-    try:
-        settings = await get_settings(query.message.chat.id)
-        if settings['max_btn']:
-            if 0 < offset <= 10:
-                off_set = 0
-            elif offset == 0:
-                off_set = None
-            else:
-                off_set = offset - 10
-            if n_offset == 0:
-
         btn.append(
             [InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(f"📃 Pᴀɢᴇs {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
@@ -475,10 +428,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False
         )
-    elif query.data == 'info':
+    elif query.data == 'series':
         await query.answer("⚠️❗️ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ❗️⚠️\n\n📝 ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ 📚\n\n🖇 Exᴀᴍᴩʟᴇ:\n\n• Robin Hood ✅\n• Ponniyan Selvan 250mb✅\n• Varisu 2023✅\n• Master Tam✅\n\n❌ DᴏɴˆT Usᴇ Aɴʏ Sʏᴍʙᴏʟs ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞❌", True)
     
-    elif query.data == 'tips':
+    elif query.data == 'movies':
         await query.answer("⚠️❗️ Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ ❗️⚠️\n\n🗣﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ 🧠\n\n🖇Exᴀᴍᴩʟᴇ: \n\n• Game Of Thrones Season Season 1✅\n• Sex Education episode 2✅ \n• Breaking Bad S01E05✅\n\n❌ DᴏɴˆT Usᴇ Aɴʏ Sʏᴍʙᴏʟs ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ ❌", True)
 
     elif query.data == "pages":
@@ -490,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+m3lsH6NZBlE1MWJl'),
             InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
             ],[
-            InlineKeyboardButton('👋 Exᴛʀᴀ Bᴜᴛᴛᴏɴs 👋', callback_data= 'about'),
+            InlineKeyboardButton('👋 Exᴛʀᴀ Bᴜᴛᴛᴏɴs 👋', callback_data= 'movies'),
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
