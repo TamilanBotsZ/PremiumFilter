@@ -116,7 +116,7 @@ async def next_page(bot, query):
         off_set = None
     else:
         off_set = offset - 10
-    if n_offset == 0   
+    if n_offset == 0:
     try:
         if settings['auto_delete']:
             btn.insert(0, 
@@ -751,7 +751,7 @@ async def auto_filter(client, msg, spoll=False):
         off_set = None
     else:
         off_set = offset - 10
-    if n_offset == 0
+    if n_offset == 0:
     try:
         if settings['auto_delete']:
             btn.insert(0, 
