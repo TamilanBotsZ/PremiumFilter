@@ -117,7 +117,7 @@ async def next_page(bot, query):
     else:
         off_set = offset - 10
     if n_offset == 0:
-    try:
+     try:
         if settings['auto_delete']:
             btn.insert(0, 
             [
