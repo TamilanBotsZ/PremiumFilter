@@ -24,8 +24,8 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
-    SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ
-Bᴜᴛ Yᴏᴜ Cᴀɴ Bᴜʏ Tʜᴇ Rᴇᴩᴏ Fᴏʀ Fʀᴇᴇ Cʟɪᴄᴋ 👜 Bᴜʏ Nᴏᴡ💎 Bᴜᴛᴛᴏɴ ﹤/b﹥"""
+    SOURCE_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
+Rᴇᴩᴏ Lɪɴᴋ 👏🙌👇﹤/b﹥"""
 
 
     MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋</b>
@@ -52,20 +52,6 @@ Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.m
 »» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
 
 »» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙</b>"""
-
-    BUY_TXT = """<b﹥ Fᴏʟʟᴏᴡ Tʜᴇ Rᴜʟᴇs Tᴏ Gᴇᴛ Tʜɪs Rᴇᴩᴏ Aᴛ Fʀᴇᴇ
-
-Pᴏsᴛ <a href=https://t.me/Tamilan_BotsZ/31>Mʏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tɪʟʟ Tʜᴀᴛ Pᴏsᴛ Rᴇᴀᴄʜ 2ᴋ Vɪᴇᴡs
-
-👉Yᴏᴜ Wɪʟʟ Pᴀʏ 100ʀs Tᴏ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ
-
-👉Pʀᴏᴍᴏᴛᴇ <a href=https://t.me/Tamilan_BotsZ/13>Mʏ Rᴇᴩᴏ Lɪɴᴋ</a> Iɴ Yᴏᴜʀ Tᴇᴄʜ Cʜᴀɴɴᴇʟ 1ᴋ ﹢ sᴜʙ
-
-👉Cᴏʟʟᴀʙ Wɪᴛʜ Oᴜʀ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ
-
-👉Gɪᴠᴇ Yᴏᴜʀ Pʀᴇᴍɪᴜᴍ Rᴇᴩᴏ Aɴᴅ I Aʟsᴏ Gɪᴠᴇ
-
-Fᴏʟʟᴏᴡ Aɴʏ 1 Rᴜʟᴇs Aɴᴅ Gᴇᴛ Tʜᴇ Rᴇᴩᴏ Fʀᴏᴍ Mᴇ ✔</b>"""
 
     STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
     
