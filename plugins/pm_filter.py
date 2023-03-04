@@ -461,7 +461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
-            InlineKeyboardButton('😙 Exᴛʀᴀ ғᴇᴀᴛᴜʀᴇs 😙', callback_data='extra'﹚,
+            InlineKeyboardButton('👋 Exᴛʀᴀ Bᴜᴛᴛᴏɴs 👋', callback_data= 'extra'),
             InlineKeyboardButton﹙'📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pong'﹚
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
@@ -699,48 +699,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         off_set = offset - 10
     if n_offset == 0:
-    try:
-        if settings['auto_delete']:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-
-        else:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-                
-    except KeyError:
-        grpid = await active_connection(str(message.from_user.id))
-        await save_group_settings(grpid, 'auto_delete', True)
-        settings = await get_settings(message.chat.id)
-        if settings['auto_delete']:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-
-        else:
-            btn.insert(0, 
-            [
-                InlineKeyboardButton(f'😇 Mᴏᴠɪᴇs', 'tips'),
-                InlineKeyboardButton(f'📝 Sᴇʀɪᴇs', 'info')
-            ]
-            )
-    btn.insert(0,
-        [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Sharath_Links/13')
-        ]
-    )
-
+    
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
