@@ -105,6 +105,12 @@ async def next_page(bot, query):
             for file in files
         ]
     btn.insert(0, 
+        [
+            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
+        ]
+    )
+   
+    btn.insert(1, 
          [
              InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
@@ -112,12 +118,7 @@ async def next_page(bot, query):
    
          ]
     )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
-        ]
-    )
-   
+
     if 0 < offset <= 6:
         off_set = 0
     elif offset == 0:
