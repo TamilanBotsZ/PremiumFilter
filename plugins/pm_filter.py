@@ -524,7 +524,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "request":
         buttons = [[
-            InlineKeyboardButton("‹‹‹ Bᴀᴄᴋ Tᴏ Rᴇsᴜʟᴛs", callback_data=f"next_{req}_{key}_{off_set}")
+            InlineKeyboardButton(f"‹‹‹ Bᴀᴄᴋ Tᴏ Rᴇsᴜʟᴛs", {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
+                                  callback_data="pages")]
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
