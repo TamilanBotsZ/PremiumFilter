@@ -111,8 +111,7 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/TamilanMoviesChat'),
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Sharathitsisme')
+            InlineKeyboardButton('😚 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 😚', callback_data='request')
         ]
     )
    
@@ -523,6 +522,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "request":
+        buttons = [[
+            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ Tᴏ Rᴇsᴜʟᴛs', callback_data='pages')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.REQUEST_TXT,       
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML 
+       )
     elif query.data == "info":
         buttons = [[
             InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
@@ -699,8 +708,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/TamilanMoviesChat'),
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Sharathitsisme')
+            InlineKeyboardButton('😚 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 😚', callback_data='request')
         ]
     )
     if offset != "":
