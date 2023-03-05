@@ -439,6 +439,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "pages":
         await query.answer()
+
+    elif query.data == "reqinfo":
+        await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n❣ ᴄᴏᴅᴇᴅ ʙʏ ᴛᴀᴍɪʟᴀɴʙᴏᴛsᴢ", show_alert=True)
+
+    elif query.data == "minfo":
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n❣ ᴄᴏᴅᴇᴅ ʙʏ ᴛᴀᴍɪʟᴀɴʙᴏᴛsᴢ", show_alert=True)
+
+    elif query.data == "sinfo":
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n❣ ᴄᴏᴅᴇᴅ ʙʏ ᴛᴀᴍɪʟᴀɴʙᴏᴛsᴢ", show_alert=True)      
+
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'https://t.me/{temp.U_NAME}?startgroup=true')
@@ -528,16 +538,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "request":
-        buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.REQUEST_TXT,       
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML 
-       )
     elif query.data == "info":
         buttons = [[
             InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
@@ -707,13 +707,19 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    .(0,
+    btn.insert(0, 
         [
-            InlineKeyboardButton('😚 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 😚', callback_data='request')
+            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
         ]
     )
-    n(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
-        ]
+   
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+   
+         ]
     )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
