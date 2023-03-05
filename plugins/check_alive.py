@@ -16,7 +16,7 @@ async def help(_, message):
 async def help(_, message):
     await message.reply_text("Tʜɪs Is Cᴏᴅᴇᴅ Bʏ @Tamilan_BotsZ/n/Tʜᴀɴᴋs Tᴏ Eᴠᴀ Mᴀʀɪᴇ ﹝ ʙᴀsᴇ ᴄᴏᴅᴇ ﹞/n/nTʜɪs Is Aɴ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Sᴏ Sᴜᴩᴩᴏʀᴛ Aɴᴅ Dᴏɴ´ᴛ Sᴇʟʟ Fᴏʀ Mᴏɴᴇʏ")
 
-@Client.on_message(filters.command("movie", CMD))
+@Client.on_message(filters.command("movies", CMD))
 async def movie(_, message):
     await message.reply_text("⚠️❗️ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Fᴏʀᴍᴀᴛ❗️⚠️\n\n📝 ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞ 📚\n\n🖇 Exᴀᴍᴩʟᴇ:\n\n• Robin Hood ✅\n• Ponniyan Selvan 250mb✅\n• Varisu 2023✅\n• Master Tam✅\n\n❌ DᴏɴˆT Usᴇ Aɴʏ Sʏᴍʙᴏʟs ﹝ ᴏɴʟʏ sᴇɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ﹞❌")
 
@@ -34,4 +34,4 @@ async def ping(_, message):
     rm = await message.reply_text("...........")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"Pɪɴɢ•!\n{time_taken_s:.3f} ms")
+    await rm.edit(f"Pɪɴɢ🔥!\n{time_taken_s:.3f} ms")
