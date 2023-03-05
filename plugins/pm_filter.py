@@ -707,14 +707,12 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    btn.insert(0,
+    .(0,
         [
             InlineKeyboardButton('😚 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 😚', callback_data='request')
         ]
     )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
+    n(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url='https://t.me/Sharath_Links/13')
         ]
     )
     if offset != "":
