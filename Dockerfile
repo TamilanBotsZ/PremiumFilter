@@ -1,6 +1,6 @@
 FROM python:3.11.2
 
-WORKDIR /VoiceOfSha
+WORKDIR /PremiumFilter
 
 COPY requirements.txt ./
 
