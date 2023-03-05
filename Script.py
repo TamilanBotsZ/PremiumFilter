@@ -20,39 +20,39 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme>sʜᴀʀᴀᴛʜ</a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 Fʀᴇᴇ Hᴏsᴛɪɴɢ</a>
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 ғʀᴇᴇ ʜᴏsᴛɪɴɢ</a>
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
-    SOURCE_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ/n/n
-100﹪ Cᴏᴅᴇᴅ Bʏ <a href=url='https://t.me/SharathItsIsme'>Sʜᴀʀᴀᴛʜ</a>/n/n
-Rᴇᴩᴏ Lɪɴᴋ 👏🙌👇/n/n﹤/b﹥"""
+    SOURCE_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
+<b>00﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
+<b>Rᴇᴩᴏ Lɪɴᴋ 👏🙌👇﹤/b﹥"""
 
 
     MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋</b>
 
-Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat/n
+<b>Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat</b>
 
-Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ/n
+<b>Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ</b>
 
-Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ\n
+<b>Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ</b>
 
-Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13 ﹤/b>"""
+<b>Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13 ﹤/b>"""
 
-    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗
+    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗</b>
 
-»»» /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
+<b>»»» /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ</b>
 
-»»»/info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ
+<b>»»»/info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ</b>
 
-»»» /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ
+<b>»»» /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ</b>
 
-»»» /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs ﹤/b﹥"""
+<b>»»» /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs ﹤/b﹥"""
 
     CONTACT_TXT = """<b> 
-»» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
+<b>»» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °</b>
 
-»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙</b>"""
+<b>»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙</b>"""
 
     STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
     
