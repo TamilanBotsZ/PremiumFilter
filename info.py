@@ -99,6 +99,6 @@ AUTO_DELETE_SECONDS = environ.get("AUTO_DELETE_SECONDS", "")
 
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "Shorturllink.in")
+SHORTNER_SITE = environ.get("SHORTNER_SITE", "Shorturllink.in")
 
-SHORTLINK_API = environ.get("SHORTLINK_API", "d7e6bf4c5666744fbcd6aa8ba0a08d4cac41e27a")
+SHORTNER_API = environ.get("SHORTNER_API", "d7e6bf4c5666744fbcd6aa8ba0a08d4cac41e27a")
