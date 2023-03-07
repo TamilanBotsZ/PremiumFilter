@@ -34,7 +34,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 - ᴇɢ :- /font hi da﹤/b﹥"""
 
      CARBON_TXT = """<b /carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
-ᴇɢ :- /carbon hi ﹤/b﹥
+ᴇɢ :- /carbon hi ﹤/b﹥"""
 
      SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
 ᴇɢ :- /share hi da﹤/b﹥"""
