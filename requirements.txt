@@ -26,4 +26,3 @@ wheel
 ujson
 wget
 pytz
-aiohttp
