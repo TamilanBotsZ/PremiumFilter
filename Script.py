@@ -1,45 +1,58 @@
 class script(object):
     START_TXT = """<b>Hᴇʏ {} ɪᴍ 『 ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ 』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.
-Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ ⤵⤵⤵</b>"""
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
-    HELP_TXT = """Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs ⤵⤵⤵."""
+    HELP_TXT = """<b>Hᴇʏ {} Fʀɪᴇɴᴅ Hᴇʀᴇ Yᴏᴜʀ Bᴜᴛᴛᴏɴs 👇</b>"""
 
-    PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ</b>
+    PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ
 
-<b>›› Mᴜsᴛ Aᴅᴅ Mᴇ Aᴅᴍɪɴ Tᴏ Wᴏʀᴋ Oɴ Tʜɪs Gʀᴏᴜᴘ</b>
+- ›› Mᴜsᴛ Aᴅᴅ Mᴇ Aᴅᴍɪɴ Tᴏ Wᴏʀᴋ Oɴ Tʜɪs Gʀᴏᴜᴘ
 
-<b>›› Cʜᴀɴɢᴇ Sᴇᴛᴛɪɴɢ Fᴏʀ Uʀ Gʀᴏᴜᴘ Cʟɪᴄᴋ 👉 /connect</b>
+- ›› Cʜᴀɴɢᴇ Sᴇᴛᴛɪɴɢ Fᴏʀ Uʀ Gʀᴏᴜᴘ Cʟɪᴄᴋ 👉 /connect
 
-<b>›› I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇs Dᴏɴ'ᴛ Wᴏʀʀʏ</b>
+- ›› I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇs Dᴏɴ'ᴛ Wᴏʀʀʏ
 
-<b>›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
+- ›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
+
+    PONG_TXT = """<b>Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping </b>"""
 
     ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamilanz_Auto_Filter_Bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme>sʜᴀʀᴀᴛʜ</a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ﹤a href=https://t.me/Sharath_Links/31>24/7 ғʀᴇᴇ ʜᴏsᴛɪɴɢ</a>
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : Pʀɪᴠᴀᴛᴇ °ᴩᴀɪᴅ° </b>"""
 
-    SOURCE_TXT = """<b> Tʜɪs Is Nᴏᴛ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ </b>
-﹤b﹥- Iғ Yᴏᴜ Wᴀɴᴛ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴩᴩᴏʀᴛ Rᴇᴩᴏ Mᴇᴀɴs Usᴇ Oᴜʀ Aɴᴏᴛʜᴇʀ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Rᴇᴩᴏ ↙↙↘↘ </b> """
+    SOURCE_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
+<b>100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
+<b>Rᴇᴩᴏ Lɪɴᴋ 👏🙌👇﹤/b﹥"""
 
-    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 ⤵⤵⤵
-- Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ ➡ @TamilanMoviesChat
-- Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ
-- Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ
-- Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ.➡ https://t.me/Sharath_Links/13﹤/b>
 
-    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗
-- ➡ /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ
-- ➡ /info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ
-- ➡ /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ
-- ➡ /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs ﹤/b﹥"""
+    MANUELFILTER_TXT = """<b> Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Usɪɴɢ Tʜɪs Bᴏᴛ 😌 🔋</b>
+
+<b>Fɪʀsᴛ Jᴏɪɴ Tʜɪs Gʀᴏᴜᴩ » @TamilanMoviesChat</b>
+
+<b>Sᴇɴᴅ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs Nᴀᴍᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴩᴇʟʟɪɴɢ</b>
+
+<b>Aɴᴅ Bᴏᴛ Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Asᴋᴇᴅ Fɪʟᴇ</b>
+
+<b>Hᴏᴡ Tᴏ Oᴩᴇɴ Bᴏᴛ Sᴇɴᴅᴇᴅ Fɪʟᴇ Lɪɴᴋ. » https://t.me/Sharath_Links/13﹤/b>"""
+
+    EXTRA_TXT = """<b> I Hᴀᴠᴇ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇs 😗</b>
+
+<b>»»» /id Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Iᴅ</b>
+
+<b>»»»/info Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Yᴏᴜʀ Aᴄᴄᴏᴜɴᴛ Iɴғᴏ</b>
+
+<b>»»» /imdb Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴏᴠɪᴇs / Sᴇʀɪᴇs Iɴғᴏ</b>
+
+<b>»»» /search Cʟɪᴄᴋ Tʜɪs Tᴏ Gᴇᴛ Mᴜᴄʜ Iɴғᴏˆs﹤/b﹥"""
 
     CONTACT_TXT = """<b> 
-- ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °
-- Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs ↘↘↘ </b>"""
+<b>»» ° Oɴʟʏ Cᴏɴᴛᴀᴄᴛ Fᴏʀ Pᴀɪᴅ Wᴏʀᴋs / Pʀᴏʙʟᴇᴍ / Dᴏᴜʙᴛ / Cᴏʟʟᴀʙ / Hᴇʟᴩ °</b>
+
+<b>»» Iғ U Cᴏɴᴛᴀᴄᴛ Mᴇ Sᴇᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs 😙</b>"""
 
     STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
     
