@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
-from plugins.Tamilans Extra Mods.admin_check import admin_check
-from plugins.Tamilans Extra Mods.extract_user import extract_user
-from plugins.Tamilans Extra Mods.string_handling import extract_time
+from plugins.Ban Tools.admin_check import admin_check
+from plugins.Ban Tools.extract_user import extract_user
+from plugins.Ban Tools.string_handling import extract_time
 
 
 @Client.on_message(filters.command("ban"))
