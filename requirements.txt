@@ -13,4 +13,5 @@ youtube-search-python
 youtube-search
 yt-dlp==2023.2.17
 aiofiles==22.1.0
+speedtest==0.0.1
 aiohttp
