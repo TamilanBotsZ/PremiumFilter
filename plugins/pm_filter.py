@@ -21,6 +21,10 @@ from database.filters_mdb import (
     find_filter,
     get_filters,
 )
+
+import os
+file_req_channel = int(os.environ.get('FILE_REQ_CHANNEL', ''))
+
 import logging
 
 logger = logging.getLogger(__name__)
@@ -676,6 +680,7 @@ async def auto_filter(client, msg, spoll=False):
             search = message.text
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
+                await client.sent_message(file_req_channel, f"-🦋 #REQUESTED_FILE 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃Cᴏᴅᴇᴅᴇᴅ Bʏ  @Tamilan_BotsZ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Fɪʟᴇ Uᴩᴅᴀᴛᴇᴅ Iɴ Bᴏᴛ 🔺", callback_data="close_data")]])))
                 if settings["spell_check"]:
                     return await advantage_spell_chok(msg)
                 else:
