@@ -30,16 +30,16 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 <b>100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
 <b>Rᴇᴩᴏ Lɪɴᴋ 👏🙌👇﹤/b﹥"""
 
-     FONT_TXT = """<b>I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
+    FONT_TXT = """<b>I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
 - ᴇɢ :- /font hi da﹤/b﹥"""
 
-     CARBON_TXT = """<b /carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
+    CARBON_TXT = """<b /carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
 ᴇɢ :- /carbon hi ﹤/b﹥"""
 
-     SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
+    SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
 ᴇɢ :- /share hi da﹤/b﹥"""
 
-     VIDEO_TXT ="""Dᴏᴡɴʟᴏᴀᴅ Aɴʏ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ Fʀᴏᴍ Tʜᴇ Vɪᴅᴇᴏ Lɪɴᴋ
+    VIDEO_TXT ="""Dᴏᴡɴʟᴏᴀᴅ Aɴʏ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ Fʀᴏᴍ Tʜᴇ Vɪᴅᴇᴏ Lɪɴᴋ
 
 • Hᴏᴡ Tᴏ Usᴇ
 • • Tʏᴘᴇ /video 𝘈𝘯𝘥 (YᴏᴜTᴜʙᴇ Vɪᴅᴇᴏ Lɪɴᴋ)
