@@ -8,4 +8,8 @@ requests
 bs4
 imdbpy==2022.7.9
 datetime
+telegraph==2.2.0
+youtube-search-python
+youtube-search
+yt-dlp==2023.2.17
 aiohttp
