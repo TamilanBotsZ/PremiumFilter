@@ -95,9 +95,9 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # Extra Features By TamilanBotsZ 💥
 
-AUTO_DELETE_SECONDS = environ.get("AUTO_DELETE_SECONDS", "")
+FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL'))
 
-COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
+AUTO_DELETE_SECONDS = environ.get("AUTO_DELETE_SECONDS", "100")
 
 SHORTNER_SITE = environ.get("SHORTNER_SITE", "Shorturllink.in")
 
