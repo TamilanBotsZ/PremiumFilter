@@ -467,8 +467,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        
-        )
+         )
+        await query.answer('Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ')
+    elif query.data == "featuree":
+        buttons = [[
+            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
+        ],[
+            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
+        ],[ 
+            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
+        ],[  
+            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
+        ],[
+            InlineKeyboardButton('🎗️ Bᴀᴄᴋ 👋', callback_data='about')
+        ],[
+            InlineKeyboardButton('💝 Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ 💝', url='https://t.me/Tamilan_BotsZ')
+        ]]       
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FEATURES_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+         )
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
@@ -482,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
-            InlineKeyboardButton('👋 Exᴛʀᴀ Bᴜᴛᴛᴏɴs 👋', callback_data='extra'),
+            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='featuree'),
             InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pong')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
@@ -491,27 +511,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-
-        await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
-
-    elif query.data == "extra":
-
-        buttons = [[
-
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about'),
-
-        ]]
-
-        reply_markup = InlineKeyboardMarkup(buttons)
-
-        await query.message.edit_text(
-
-            text=script.EXTRA_TXT.format(query.from_user.mention),
-
-            reply_markup=reply_markup,
-
             parse_mode=enums.ParseMode.HTML
 
         )
