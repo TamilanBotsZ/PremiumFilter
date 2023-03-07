@@ -53,6 +53,11 @@
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ ᴜʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ʟɪɴᴋ 
 - `SHORTNER_API` 👈 ɢᴇᴛ ᴀᴘɪ ғʀᴏᴍ ᴜʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ sᴇᴛᴛɪɴɢs
 - `AUTO_DELETE_SECONDS` 👈 ɢɪᴠᴇ ɪɴ sᴇᴄᴏɴᴅs ғᴏʀᴍᴀᴛ
+- `FILE_REQ_CHANNEL` 👈 ɢɪᴠᴇ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ɪᴅ ʜᴇʀᴇ
+- `HOW_TO_DOWNLOAD` 👈 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ
+- `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
+- `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
+
 
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
