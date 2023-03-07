@@ -99,7 +99,7 @@ HOW_TO_DOWNLOAD = environ.get("HOW_TO_DOWNLOAD", "https://t.me/Sharath_Links/13"
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
 
-FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', ))
+FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
 
 SHORTNER_SITE = environ.get("SHORTNER_SITE", "Shorturllink.in")
 
