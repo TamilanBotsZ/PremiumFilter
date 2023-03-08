@@ -21,7 +21,8 @@ from database.filters_mdb import (
     find_filter,
     get_filters,
 )
-file_req_channel = FILE_REQ_CHANNEL
+import os
+file_req_channel = int(os.environ.get('FILE_REQ_CHANNEL', ''))
 
 import logging
 
