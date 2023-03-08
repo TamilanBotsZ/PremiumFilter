@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '18466786'))
-API_HASH = environ.get('API_HASH', 'd2ce12c5c963cbb2210a669def0868aa')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6084905112:AAHfBvLSUrhH7wE0ezQSWtU5zVF-xIMaPeg")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 
@@ -27,23 +27,23 @@ PICS = (environ.get('PICS', 'https://te.legra.ph/file/1d0a2c18fe400858da722.jpg'
 
 # Admins, Channels & Users
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1893496887').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001880914188').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001674828759')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://EARN:EARN@cluster0.khsles8.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "EARN")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001807926932'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilanMoviesChat')
 
@@ -103,4 +103,4 @@ FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
 
 SHORTNER_SITE = environ.get("SHORTNER_SITE", "Shorturllink.in")
 
-SHORTNER_API = environ.get("SHORTNER_API", "d7e6bf4c5666744fbcd6aa8ba0a08d4cac41e27a")
+SHORTNER_API = environ.get("SHORTNER_API", "d7e6bf4c566674dkl9yvj8ba0a08d4cac41e27a")
