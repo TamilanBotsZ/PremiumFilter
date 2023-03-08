@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/TamilanBotsZ/Filter/Tamilans-Working-Branch",
-    "repository": "https://github.com/TamilanBotsZ/Filter/Tamilans-Working-Branch",
+    "website": "https://github.com/TamilanBotsZ/PremiumFilter/Tamilans-Working-Branch",
+    "repository": "https://github.com/TamilanBotsZ/PremiumFilter/Tamilans-Working-Branch",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
