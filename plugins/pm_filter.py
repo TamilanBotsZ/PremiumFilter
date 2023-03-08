@@ -468,29 +468,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
          )
-        await query.answer('Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ')
-    elif query.data == "mods":
-        buttons = [[
-            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
-        ],[
-            InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
-        ],[
-            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
-        ],[ 
-            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
-        ],[  
-            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
-        ],[
-            InlineKeyboardButton('🎗️ Bᴀᴄᴋ 👋', callback_data='about')
-        ],[
-            InlineKeyboardButton('💝 Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ 💝', url='https://t.me/Tamilan_BotsZ')
-        ]]       
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.MODS_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-         )
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
@@ -516,6 +493,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
        )
+        await query.answer('Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ')
+    elif query.data == "mods":
+        buttons = [[
+            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
+        ],[
+            InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
+        ],[
+            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
+        ],[ 
+            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
+        ],[  
+            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
+        ],[
+            InlineKeyboardButton('🎗️ Bᴀᴄᴋ 👋', callback_data='about')
+        ],[
+            InlineKeyboardButton('💝 Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ 💝', url='https://t.me/Tamilan_BotsZ')
+        ]]       
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MODS_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+         )
     elif query.data == "tele":
         buttons = [[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='featuree')
