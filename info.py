@@ -101,6 +101,6 @@ AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
 
-SHORTNER_SITE = environ.get("SHORTNER_SITE", "Shorturllink.in")
+SHORTNER_SITE = environ.get("SHORTNER_SITE", "")
 
-SHORTNER_API = environ.get("SHORTNER_API", "d7e6bf4c566674dkl9yvj8ba0a08d4cac41e27a")
+SHORTNER_API = environ.get("SHORTNER_API", "")
