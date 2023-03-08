@@ -1,8 +1,8 @@
 FROM python:3.11.2
 
-WORKDIR /PremiumFilter
+WORKDIR /Filter
 
-COPY requirements.txt ./
+COPY . .
 
 RUN pip install -r requirements.txt
 
