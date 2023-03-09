@@ -1,3 +1,4 @@
+
 pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
@@ -7,6 +8,7 @@ umongo==3.0.1
 requests
 bs4
 imdbpy==2022.7.9
+heroku3
 datetime
 telegraph==2.2.0
 youtube-search-python
