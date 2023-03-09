@@ -117,8 +117,8 @@ async def next_page(bot, query):
    
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'reqinfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'mreq'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sreq')
    
          ]
     )
@@ -444,11 +444,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
 
-    elif query.data == "reqinfo":
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴠᴀᴀᴛʜɪ 2023 \n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n❣ ᴄᴏᴅᴇᴅ ʙʏ ᴛᴀᴍɪʟᴀɴʙᴏᴛsᴢ", show_alert=True)
-    elif query.data == "sinfo":
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n❣ ᴄᴏᴅᴇᴅ ʙʏ ᴛᴀᴍɪʟᴀɴʙᴏᴛsᴢ", show_alert=True)      
-
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'https://t.me/{temp.U_NAME}?startgroup=true')
@@ -517,6 +512,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
          )
+    elif query.data == "mreq":
+        buttons = [[
+            InlineKeyboardButton('Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='sreq')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MREQ_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+       )
+    elif query.data == "sreq":
+        buttons = [[
+            InlineKeyboardButton('Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='mreq')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SREQ_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+       )
     elif query.data == "tele":
         buttons = [[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='mods')
@@ -775,8 +790,8 @@ async def auto_filter(client, msg, spoll=False):
    
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'reqinfo'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'mreq'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sreq')
    
          ]
     )
