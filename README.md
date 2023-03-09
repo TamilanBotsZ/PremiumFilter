@@ -74,6 +74,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <br>
 <a href="https://render.com/deploy?repo=https://github.com/TamilanBotsZ/PremiumFilter/tree/Tamilans-Working-Branch">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="deploy-to-render">
+<b><a href=>Please Watch Tutorial Before Depoly Or Error</a></b>
   </a>
   </p>
   <p>
@@ -83,8 +84,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <br>
 <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/TamilanBotsZ/PremiumFilter&branch=Tamilans-Working-Branch">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="deploy-to-koyeb">
-  </a>
-ɪᴀᴍ ɴᴏᴛ sᴜᴩᴩᴏʀᴛɪɴɢ ᴋᴏʏᴇʙ ᴛᴏ ᴅᴇᴩᴏʟʏ ʙᴇᴀᴄᴀᴜsᴇ ᴏғ ᴇʀʀᴏʀ
+  </a
   </p>
   <p>
 </details>  
