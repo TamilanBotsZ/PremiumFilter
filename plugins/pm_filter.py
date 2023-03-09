@@ -502,9 +502,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[  
             InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
         ],[
-            InlineKeyboardButton('🎗️ Bᴀᴄᴋ 👋', callback_data='about')
+            InlineKeyboardButton('📋 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 📝 ', callback_data='method')
+        ],[
+            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
         ],[
             InlineKeyboardButton('💝 Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ 💝', url='https://t.me/Tamilan_BotsZ')
+        ],[
+            InlineKeyboardButton('🎗️ Bᴀᴄᴋ 👋', callback_data='about')
+        
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -512,6 +517,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
          )
+    elif query.data == "method":
+        buttons = [[
+            InlineKeyboardButton('Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='sreq')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.METHOD_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+       )
     elif query.data == "mreq":
         buttons = [[
             InlineKeyboardButton('Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='sreq')
