@@ -1,5 +1,11 @@
 FROM python:3.10
-WORKDIR /app
-COPY . /app/
+
+WORKDIR /TamilanBotsZ
+
+COPY requirements.txt ./
+
 RUN pip install -r requirements.txt
-CMD ["python", "bot.py"]
+
+copy . .
+
+CMD ["python3", "bot.py"]
