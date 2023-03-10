@@ -105,4 +105,4 @@ SHORTNER_SITE = environ.get("SHORTNER_SITE", "")
 
 SHORTNER_API = environ.get("SHORTNER_API", "")
 
-MAX_B_TN = environ.get("MAX_B_TN", "7")
+API_ID = int(environ.get('API_ID', ''))
