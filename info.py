@@ -104,3 +104,5 @@ FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
 SHORTNER_SITE = environ.get("SHORTNER_SITE", "")
 
 SHORTNER_API = environ.get("SHORTNER_API", "")
+
+MAX_B_TN = environ.get("MAX_B_TN", "7")
