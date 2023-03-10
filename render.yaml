@@ -1,15 +1,12 @@
 services:
-  # A Docker web service
   - type: web
+    plan: free
     name: PremiumFilter
     env: python
-    startCommand: gunicorn app:app & python3 bot.py
-    buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github/TamilanBotsZ/PremiumFilter # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
-    branch: Tamilans-Working-Branch # optional (defaults to master)
-    numInstances: 1 # optional (defaults to 1)
-    healthCheckPath: /
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    repo: https://github.com/TamilanBotsZ/PremiumFilter.git      
+    branch: Tamilans-Working-Branch
+    autoDeploy: false 
 
 #By TamilanBotsZ
