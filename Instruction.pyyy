@@ -1,0 +1,8 @@
+# if you depolying my repo to
+# heroku or koyeb means
+# change python version 3.10 to 3.11
+
+# How to change python version ?
+
+# Go To ProcFile Change 3.10 To 3.11
+# Go To DockerFile Change 3.10 To 3.11
