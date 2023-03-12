@@ -117,8 +117,8 @@ async def next_page(bot, query):
    
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'mreq'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sreq')
+             InlineKeyboardButton(text="ᴍᴏᴠɪᴇs", callback_data='mreq'),
+             InlineKeyboardButton(text="sᴇʀɪᴇs", callback_data='sreq')
    
          ]
     )
@@ -502,8 +502,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[  
             InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
         ],[
-            InlineKeyboardButton('📋 Pʀᴏᴩᴇʀ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ 📝 ', callback_data='method')
-        ],[
             InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
         ],[
             InlineKeyboardButton('💝 Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ 💝', url='https://t.me/Tamilan_BotsZ')
@@ -514,16 +512,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.MODS_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-         )
-    elif query.data == "method":
-        buttons = [[
-            InlineKeyboardButton('Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='sreq')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.METHOD_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
        )
@@ -805,8 +793,8 @@ async def auto_filter(client, msg, spoll=False):
    
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'mreq'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sreq')
+             InlineKeyboardButton(text="ᴍᴏᴠɪᴇs", callback_data='mreq'),
+             InlineKeyboardButton(text="sᴇʀɪᴇs", callback_data='sreq')
    
          ]
     )
