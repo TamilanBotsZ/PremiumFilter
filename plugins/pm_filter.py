@@ -111,18 +111,16 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f'HOW_TO_DOWNLOAD')
+            InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url=f'HOW_TO_DOWNLOAD')
+        ]
+    )
+    btn.insert(1, 
+        [
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='mreq'),
+            InlineKeyboardButton('sᴇʀɪᴇs', callback_data='sreq')
         ]
     )
    
-    btn.insert(1, 
-         [
-             InlineKeyboardButton(text="ᴍᴏᴠɪᴇs", callback_data='mreq'),
-             InlineKeyboardButton(text="sᴇʀɪᴇs", callback_data='sreq')
-   
-         ]
-    )
-
     if 0 < offset <= 6:
         off_set = 0
     elif offset == 0:
@@ -787,16 +785,14 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f'HOW_TO_DOWNLOAD')
+            InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url=f'HOW_TO_DOWNLOAD')
         ]
     )
-   
     btn.insert(1, 
-         [
-             InlineKeyboardButton(text="ᴍᴏᴠɪᴇs", callback_data='mreq'),
-             InlineKeyboardButton(text="sᴇʀɪᴇs", callback_data='sreq')
-   
-         ]
+        [
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='mreq'),
+            InlineKeyboardButton('sᴇʀɪᴇs', callback_data='sreq')
+        ]
     )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
