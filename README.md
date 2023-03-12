@@ -6,8 +6,9 @@
     <b>PʀᴇᴍɪᴜᴍFɪʟᴛᴇʀ Rᴇᴩᴏ</b>
     </h1>
 
-
-
+<a href="https://github.com/TamilanBotsZ/PremiumFilter/stargazers"><img src="https://img.shields.io/github/stars/TamilanBotsZ/PremiumFilter?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/TamilanBotsZ/Premium Filter/network/members"> <img src="https://img.shields.io/github/forks/TamilanBotsZ/PremiumFilter?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/TamilanBotsZ/PremiumFilter"> <img src="https://img.shields.io/github/repo-size/TamilanBotsZ/PremiumFilter?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
 
 # 👩‍💻 Cᴏᴅᴇᴅᴇᴅ Bʏ TᴀᴍɪʟᴀɴBᴏᴛsZ
 
