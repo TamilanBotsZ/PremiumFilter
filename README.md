@@ -3,12 +3,12 @@
   <img src="https://te.legra.ph/file/12d811d8bd6d19299f369.jpg" alt="Awesome Filter Logo">
   </p>
   <h1 align="center">
-    <b>PʀᴇᴍɪᴜᴍFɪʟᴛᴇʀ Rᴇᴩᴏ</b>
+    <b>Pʀᴇᴍɪᴜᴍ Fɪʟᴛᴇʀ Rᴇᴩᴏ</b>
     </h1>
 
-<a href="https://github.com/TamilanBotsZ/PremiumFilter"><img src="https://img.shields.io/github/stars/TamilanBotsZ/PremiumFilter?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/TamilanBotsZ/PremiumFilter"> <img src="https://img.shields.io/github/forks/TamilanBotsZ/PremiumFilter?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/TamilanBotsZ/PremiumFilter"> <img src="https://img.shields.io/github/repo-size/TamilanBotsZ/PremiumFilter?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/TamilanBotsZ/Premiumfilter"><img src="https://img.shields.io/github/stars/TamilanBotsZ/Premiumfilter?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/TamilanBotsZ/Premiumfilter"> <img src="https://img.shields.io/github/forks/TamilanBotsZ/Premiumfilter?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/TamilanBotsZ/Premiumfilter"> <img src="https://img.shields.io/github/repo-size/TamilanBotsZ/Premiumfilter?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
 
 # 👩‍💻 Cᴏᴅᴇᴅᴇᴅ Bʏ TᴀᴍɪʟᴀɴBᴏᴛsZ
 
