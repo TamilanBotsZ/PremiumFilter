@@ -59,6 +59,8 @@
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 
+Follow This Instruction Before Depolying Heroku / Koyeb
+
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Hᴇʀᴏᴋᴜ {ᴘᴀɪᴅ}</summary>
 <p>
 <br>
@@ -71,10 +73,16 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Rᴇɴᴅᴇʀ {ғʀᴇᴇ}</summary>
 <p>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/TamilanBotsZ/PremiumFilter?type=web">
+<a href="https://dashboard.render.com/select-repo?type=web">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="deploy-to-render">
 <b><a href=>Please Watch Tutorial Before Depoly Or Error</a></b>
   </a>
+Runtime : `Docker`
+
+Click ' Advance ^ ' Button
+
+Dockerfile Path : `./Dockerfile`
+AutoDepoly : `off`
   </p>
   <p>
 </details>
