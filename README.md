@@ -62,7 +62,7 @@
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 
-Follow This Instruction Before Depolying Heroku / Koyeb
+<a href=https://github.com/TamilanBotsZ/PremiumFilter/blob/Tamilans-Working-Branch/Instruction.pyyy>Follow This Instruction Before Depolying Heroku / Koyeb</a>
 
 <details><summary>Dᴇᴘᴏʟʏ Tᴏ Hᴇʀᴏᴋᴜ {ᴘᴀɪᴅ}</summary>
 <p>
