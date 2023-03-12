@@ -448,28 +448,28 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B' 
 
-
-
 async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://shorturllink.in/api'
-    params = {'api': SHORTNER_API,
-              'url': link,
+
+    url = f'https://shorturllink.in/shortLink'
+    params = {'token': SHORTNER_API,
+              'link': link,
+              'format': 'json'
               }
 
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
-                data = await response.json()
+                data = await response.json(content_type='text/html')
                 if data["status"] == "success":
-                    return data['shortenedUrl']
+                    return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://{SHORTNER_SITE}/api?api={SHORTNER_API}&link={link}'
+                    return f'https://{SHORTNER_SITE}/directLink?token={SHORTNER_API}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'{SHORTNER_SITE}/api?api={SHORTNER_API}&link={link}'
+        return f'https://{SHORTNER_SITE}/directLink?token={SHORTNER_API}&link={link}'
