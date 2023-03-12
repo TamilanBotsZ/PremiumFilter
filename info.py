@@ -63,8 +63,10 @@ LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies 
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
+HOW_TO_DOWNLOAD = environ.get("HOW_TO_DOWNLOAD", "https://t.me/Sharath_Links/13")
+MAX_BTN = int(environ.get('MAX_BTN', '7'))
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 10800))
-
+FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
 SHORTNER_SITE = "short.koklink.in"
 SHORTNER_API = "7a2eb1abf94f6c075fc997abb8772014cba5f06b"
