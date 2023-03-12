@@ -449,12 +449,13 @@ def humanbytes(size):
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B' 
 
 
+
 async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://shorturllink.in/api'
+    url = f'https://shorturllink.in.in/api'
     params = {'api': SHORTNER_API,
               'url': link,
               }
