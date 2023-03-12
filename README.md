@@ -54,8 +54,6 @@
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
 - `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
 
-<b><a href=https://github.com/TamilanBotsZ/PremiumFilter/blob/Tamilans-Working-Branch/Important.pyyy>ᴅᴇғᴏʀᴇ ᴅᴇᴩᴏʟʏ ᴍᴜsᴛ ᴄʜᴇᴄᴋ ɪᴍᴩᴏʀᴛᴀɴᴛ.ᴩʏ ғɪʟᴇ</a></b>
-
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 
