@@ -114,13 +114,6 @@ async def next_page(bot, query):
             InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url=f'HOW_TO_DOWNLOAD')
         ]
     )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='mreq'),
-            InlineKeyboardButton('sᴇʀɪᴇs', callback_data='sreq')
-        ]
-    )
-   
     if 0 < offset <= 6:
         off_set = 0
     elif offset == 0:
@@ -513,26 +506,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
        )
-    elif query.data == "mreq":
-        buttons = [[
-            InlineKeyboardButton('Sᴇʀɪᴇs Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='sreq')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.MREQ_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-       )
-    elif query.data == "sreq":
-        buttons = [[
-            InlineKeyboardButton('Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Mᴇᴛʜᴏᴅ', callback_data='mreq')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.SREQ_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-       )
     elif query.data == "tele":
         buttons = [[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='mods')
@@ -786,12 +759,6 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0, 
         [
             InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url=f'HOW_TO_DOWNLOAD')
-        ]
-    )
-    btn.insert(1, 
-        [
-            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='mreq'),
-            InlineKeyboardButton('sᴇʀɪᴇs', callback_data='sreq')
         ]
     )
     if offset != "":
