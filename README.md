@@ -46,10 +46,7 @@
 - `DATABASE_URI` 👈 ɢᴇᴛ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ ( mongodb.com )
 - `DATABASE_NAME` 👈 ɢᴇᴛ ᴍᴏɴɢᴏᴅʙ ɴᴀᴍᴇ ғʀᴏᴍ ( mongodb.com )
 - `LOG_CHANNEL` 👈 ᴄʀᴇᴀᴛᴇ ᴀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴀᴅᴍɪɴ ᴛʜᴇ ᴅᴇᴘᴏʟʏ ʙᴏᴛ
-- `SHORTNER_SITE` 👈 ɢɪᴠᴇ ᴜʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ʟɪɴᴋ 
-- `SHORTNER_API` 👈 ɢᴇᴛ ᴀᴘɪ ғʀᴏᴍ ᴜʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ sᴇᴛᴛɪɴɢs
 - `AUTO_DELETE_SECONDS` 👈 ɢɪᴠᴇ ɪɴ sᴇᴄᴏɴᴅs ғᴏʀᴍᴀᴛ
-- `HOW_TO_DOWNLOAD` 👈 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
 - `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
 
