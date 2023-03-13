@@ -70,7 +70,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <br>
 <a href="https://dashboard.render.com/select-repo?type=web">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="deploy-to-render">
-<b><a href=https://tx.me/Sharath_Links/32>Please Watch Tutorial Before Depoly Or Error</a></b>
+<b><a href=https://tx.me/Sharath_Links/35>Please Watch Tutorial Before Depoly Or Error</a></b>
   </a>
   </p>
   <p>
