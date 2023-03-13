@@ -48,6 +48,7 @@
 - `LOG_CHANNEL` 👈 ᴄʀᴇᴀᴛᴇ ᴀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴀᴅᴍɪɴ ᴛʜᴇ ᴅᴇᴘᴏʟʏ ʙᴏᴛ
 - `FILE_REQ_CHANNEL` 👈 ғɪʟᴇ ʀᴇǫᴜᴇsᴛ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴄʜᴀɴɴᴇʟ ɪᴅ
 - `AUTO_DELETE_SECONDS` 👈 ɢɪᴠᴇ ɪɴ sᴇᴄᴏɴᴅs ғᴏʀᴍᴀᴛ
+- `HOW_TO_DOWNLOAD` 👈 ᴄʜᴀɴɢᴇ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ / ᴏɴʟʏ ɢɪᴠᴇ ᴛʜᴇ ᴠɪᴅᴇᴏ ʟɪɴᴋ
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
 - `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
 
