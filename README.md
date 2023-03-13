@@ -46,7 +46,6 @@
 - `DATABASE_URI` 👈 ɢᴇᴛ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ғʀᴏᴍ ( mongodb.com )
 - `DATABASE_NAME` 👈 ɢᴇᴛ ᴍᴏɴɢᴏᴅʙ ɴᴀᴍᴇ ғʀᴏᴍ ( mongodb.com )
 - `LOG_CHANNEL` 👈 ᴄʀᴇᴀᴛᴇ ᴀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴀᴅᴍɪɴ ᴛʜᴇ ᴅᴇᴘᴏʟʏ ʙᴏᴛ
-- `IMDB` 👈 Gɪᴠᴇ True ᴏʀ False
 - `FILE_REQ_CHANNEL` 👈 ғɪʟᴇ ʀᴇǫᴜᴇsᴛ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴄʜᴀɴɴᴇʟ ɪᴅ
 - `AUTO_DELETE_SECONDS` 👈 ɢɪᴠᴇ ɪɴ sᴇᴄᴏɴᴅs ғᴏʀᴍᴀᴛ
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
