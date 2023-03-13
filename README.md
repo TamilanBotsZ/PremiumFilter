@@ -12,7 +12,7 @@
 
 ## HɪɢʜLɪɢʜᴛ Fᴇᴀᴛᴜʀᴇs
 
-- 🔥Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛ
+<b>- 🔥Uʀʟ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛ
 - 🔥Usᴇʀ Cᴀɴ Rᴇǫᴜᴇsᴛ Fɪʟᴇs
 - 🔥Cʜᴇᴄᴋ RᴇᴀʟTɪᴍᴇ Pɪɴɢ
 - 🔥Nᴇᴡ & Bᴇsᴛ Uɪ
@@ -33,7 +33,7 @@
 - 🔥Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ
 - 🔥Fɪʟᴇ Uɴᴅᴇʀ Dᴇʟᴇᴛᴇ Bᴜᴛᴛᴏɴ
 - 🔥Lᴏɢ Mᴇssᴀɢᴇ Cʜᴀɴɢᴇᴅ
-- 🔥Mᴀᴅᴇᴅ Bʏ /Tᴀᴍɪʟᴀɴ_BᴏᴛsZ\
+- 🔥Mᴀᴅᴇᴅ Bʏ /Tᴀᴍɪʟᴀɴ_BᴏᴛsZ\</b>
 
 
 ### Mᴜsᴛ AᴅᴅVᴀʀɪᴀʙʟᴇs
@@ -137,14 +137,14 @@ link - 🖇️ ʟɪɴᴋ ᴛᴏ ᴘᴏsᴛ (ᴀᴅᴍɪɴ ᴏɴʟʏ)
 Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ *[![TᴀᴍɪʟᴀɴBᴏᴛsZ-Mᴇ](https://img.shields.io/static/v1?label=TamilanBotsZ&message=devs&color=critical)](https://telegram.dog/Tamilan_BotsZ)
 
 ## Tʜᴀɴᴋs Tᴏ 
- - Tʜᴀɴᴋs Tᴏ Mᴇ 🤩
+ <b>- Tʜᴀɴᴋs Tᴏ Mᴇ 🤩
  - Tʜᴀɴᴋs Tᴏ Eᴠᴀ Mᴀʀɪᴇ Tᴇᴀᴍ❣️
- - Tʜᴀɴᴋs Tᴏ Oᴜʀ Usᴇʀs😇
+ - Tʜᴀɴᴋs Tᴏ Oᴜʀ Usᴇʀs </b>😇
 
 ## Dɪsᴄʟᴀᴍɪɴᴇʀ
 
-- Tʜɪs Is OᴘᴇɴSᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Sᴏ Dᴏɴ'ᴛ Sᴇʟʟ Tʜɪs Rᴇᴘᴏ Fᴏʀ Mᴏɴᴇʏ
+<b>- Tʜɪs Is OᴘᴇɴSᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Sᴏ Dᴏɴ'ᴛ Sᴇʟʟ Tʜɪs Rᴇᴘᴏ Fᴏʀ Mᴏɴᴇʏ
 
 - Pʟᴇᴀsᴇ Dᴏɴ'ᴛ Cʜᴀɴɢᴇ "Uᴘᴅᴀᴛᴇs" Bᴜᴛᴛᴏɴ Lɪɴᴋ
 
-- Mʏ 3ᴍᴏɴᴛʜ HᴀʀᴅWᴏʀᴋ Sᴏ Pʟᴇᴀsᴇ 'Sᴛᴀʀ' (10 Sᴇᴄ Fᴏʀ Sᴛᴀʀ)
+- Mʏ 3ᴍᴏɴᴛʜ HᴀʀᴅWᴏʀᴋ Sᴏ Pʟᴇᴀsᴇ 'Sᴛᴀʀ' (10 Sᴇᴄ Fᴏʀ Sᴛᴀʀ) </b>
