@@ -15,7 +15,9 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 - ›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>
 """
 
-    MODS_TXT = """<b>I Hᴀᴠᴇ Mᴀɴʏ Fᴇᴀᴛᴜʀᴇs 👇﹤/b>"""
+    MODS_TXT = """<b>
+I Hᴀᴠᴇ Mᴀɴʏ Fᴇᴀᴛᴜʀᴇs 👇﹤/b>
+"""
 
     PONGD_TXT = """<b>Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping </b>"""
     
@@ -29,27 +31,39 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://github.com/TamilanBotsZ/PremiumFilter>ʀᴇᴩᴏ ʟɪɴᴋ</a>.</b>"""
 
-    SOURCES_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
+    SOURCES_TXT = """<b>
+Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
 
-<b>- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
+100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a>
 
-<b>- & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>"""
+& Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>
+"""
 
-    SOURCE_TXT = """<b> Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
+    SOURCE_TXT = """<b>
+Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
 
-<b>- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
+100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a>
 
-<b>- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>"""
+Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>
+"""
 
-    FONT_TXT = """<b>I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇</b>
+    FONT_TXT = """<b>
+I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
 
-<b>- ᴇɢ :- /font hi da﹤/b﹥"""
+ᴇɢ :- /font hi da﹤/b﹥
+"""
 
-    CARBON_TXT = """<b>/carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜</b>
-<b>- ᴇɢ :- /carbon hi﹤/b﹥"""
+    CARBON_TXT = """<b>
+/carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
 
-    SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜</b>
-<b>- ᴇɢ :- /share hi da﹤/b﹥"""
+ᴇɢ :- /carbon hi﹤/b﹥
+"""
+
+    SHARE_TXT = """<b>
+/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
+
+ᴇɢ :- /share hi da﹤/b﹥
+"""
 
     VIDEO_TXT ="""<b>Dᴏᴡɴʟᴏᴀᴅ Aɴʏ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ Fʀᴏᴍ Tʜᴇ Vɪᴅᴇᴏ Lɪɴᴋ
 
