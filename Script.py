@@ -15,7 +15,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 - ›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>
 """
 
-    MODS_TXT = """<b>I Hᴀᴠᴇ Mᴀɴʏ Fᴇᴀᴛᴜʀᴇs 👇 .﹤/b>"""
+    MODS_TXT = """<b>I Hᴀᴠᴇ Mᴀɴʏ Fᴇᴀᴛᴜʀᴇs 👇﹤/b>"""
 
     PONGD_TXT = """<b>Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping </b>"""
     
@@ -39,21 +39,17 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
 <b>- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
 
-<b>- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>
-"""
+<b>- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ﹤/b>"""
 
     FONT_TXT = """<b>I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇</b>
 
-<b>- ᴇɢ :- /font hi da﹤/b﹥
-"""
+<b>- ᴇɢ :- /font hi da﹤/b﹥"""
 
     CARBON_TXT = """<b>/carbon ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜</b>
-<b>- ᴇɢ :- /carbon hi﹤/b﹥
-"""
+<b>- ᴇɢ :- /carbon hi﹤/b﹥"""
 
     SHARE_TXT = """<b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜</b>
-<b>- ᴇɢ :- /share hi da﹤/b﹥
-"""
+<b>- ᴇɢ :- /share hi da﹤/b﹥"""
 
     VIDEO_TXT ="""<b>Dᴏᴡɴʟᴏᴀᴅ Aɴʏ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ Fʀᴏᴍ Tʜᴇ Vɪᴅᴇᴏ Lɪɴᴋ
 
