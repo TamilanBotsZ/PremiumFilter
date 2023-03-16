@@ -384,9 +384,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                5 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                9 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 await asyncio.sleep(8)
-                await 5.delete()
+                await 9.delete()
                 return
             elif settings['botpm']:
                 7 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
