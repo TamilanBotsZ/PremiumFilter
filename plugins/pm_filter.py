@@ -151,7 +151,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("okDa", show_alert=True)
+        return await query.answer("sᴇᴀʀᴄʜ ʏᴏᴜʀsᴇʟғ", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
@@ -398,16 +398,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=query.from_user.id,
                     file_id=file_id,
                     caption=f_caption,
-                    ( [ [ InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data') ] ] ),
                     protect_content=True if ident == "filep" else False 
                 )
                 await query.answer('Cʟɪᴄᴋ Bᴀᴄᴋ Bᴜᴛᴛᴏɴ ➥ Yᴏᴜ Sᴇᴇ Mʏ Nᴀᴍᴇ Aɴᴅ Pʀᴏғɪʟᴇ ➥ Tᴏᴜᴄʜ Mʏ Nᴀᴍᴇ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Fɪʀsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ !', show_alert=True)
         except PeerIdInvalid:
-            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+            8 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+            await asyncio.sleep(8)
+            await 8.delete()
         except Exception as e:
-            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+            4 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+            await asyncio.sleep(30)
+            await 4.delete()
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
             await query.answer("Yᴏ Yᴏ Fɪʀsᴛ Jᴏɪɴ Tʜᴇ Cʜᴀɴɴᴇʟ ᴀɴᴅ Cʟɪᴄᴋ Rᴇғʀᴇsʜ 😒", show_alert=True)
