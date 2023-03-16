@@ -384,10 +384,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                5 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await asyncio.sleep(8)
+                await 5.delete()
                 return
             elif settings['botpm']:
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                7 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await asyncio.sleep(8)
+                await 7.delete()
                 return
             else:
                 await client.send_cached_media(
