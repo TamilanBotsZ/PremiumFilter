@@ -394,7 +394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⛑𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⛑', url=H_DOWNLOAD_LINK)
+                    InlineKeyboardButton('⛑𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⛑', url=HOW_TO_DOWNLOAD)
                 ],
                 [
                     InlineKeyboardButton('♻️ 𝗗ᴏᴡɴʟᴏᴀᴅ 𝗟ɪɴᴋ ♻️', url=g)
