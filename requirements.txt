@@ -22,6 +22,7 @@ python-dotenv==0.21.1
 opencv-python-headless==4.7.0.68
 humanize==4.6.0
 Pillow==9.4.0
+pyshorteners
 psutil==5.9.4
 NumPy
 wheel
