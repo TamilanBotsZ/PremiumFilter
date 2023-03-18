@@ -391,9 +391,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             elif settings['botpm']:
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
-            else:
+            else: # Proud Feature By @Tamilan_BotsZ
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://telegra.ph/file/3f2ff459b9d316133d1c8.jpg', caption = f"<b>📕𝗡ᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗𝗦ɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo=f"{PICS}", caption = f"<b>📕 Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗 Sɪᴢᴇ ➠ : {get_size(files.file_size)} \n\nCʀᴇᴅɪᴛs :: @Tamilan_BotsZ</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -401,7 +401,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
-                ]]))
+                ]])) # Proud Feature By @Tamilan_BotsZ
                 await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Mʏ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nCʟɪᴄᴋ Mᴇssᴀɢᴇ Bᴜᴛᴛᴏɴ \n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
