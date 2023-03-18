@@ -391,27 +391,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             else:
-                await client.send_cached_media(
-                    chat_id=query.from_user.id,
-                    file_id=file_id,
-                    caption=f_caption,
-                    protect_content=True if ident == "filep" else False 
-                )
-                await query.answer('Cʟɪᴄᴋ Bᴀᴄᴋ Bᴜᴛᴛᴏɴ ➥ Yᴏᴜ Sᴇᴇ Mʏ Nᴀᴍᴇ Aɴᴅ Pʀᴏғɪʟᴇ ➥ Tᴏᴜᴄʜ Mʏ Nᴀᴍᴇ', show_alert=True)
+                shortbtn = [
+                    [
+                        InlineKeyboardButton(text=f"Download Link", url=f"{shorten_link}")
+                    ],
+                    [
+                        InlineKeyboardButton(text=f"How To Downlload", url=f"{HOW_TO_DOWNLOAD}")
+                    ]
+                ]
+                short_markup = InlineKeyboardMarkup(shortbtn)
+                shorten_link = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await client.send_message(chat_id=query.from_user.id,text = f"<b>==> Title : {files.file_name}\n\n==> File_Size : {get_size(files.file_size)}</b>", reply_markup=short_markup)
+                await query.answer('Check PM, I have sent files in pm', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Fɪʀsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ !', show_alert=True)
+            await query.answer('You Are Blocked to use me !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Yᴏ Yᴏ Fɪʀsᴛ Jᴏɪɴ Tʜᴇ Cʜᴀɴɴᴇʟ ᴀɴᴅ Cʟɪᴄᴋ Rᴇғʀᴇsʜ 😒", show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart Okay 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('Nᴏ Sᴜᴄʜ Fɪʟᴇ Exɪsᴛ.')
+            return await query.answer('No such file exist.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
