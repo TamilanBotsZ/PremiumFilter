@@ -51,6 +51,19 @@
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
 - `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
 
+##👏 Pʀᴏᴜᴅ Tᴏ Sᴀʏ 👏
+
+⚡ Fɪʀsᴛ Tɪᴍᴇ Oɴ Gɪᴛʜᴜʙ ﹛ Oᴩᴇɴ Sᴏᴜʀᴄᴇ ﹜ ⚡
+
+Fɪʀsᴛ Tɪᴍᴇ Tᴏ Aᴅᴅ Tʜɪs Fᴇᴀᴛᴜʀᴇ Oɴ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Rᴇᴩᴏ
+
+
+Pᴏsᴛ Sʜᴏʀᴛɴᴇʀ Lɪɴᴋ Fᴇᴀᴛᴜʀᴇ 
+Cᴀɴ'ᴛ Uɴᴅᴇʀsᴛᴀɴ ﹖ Sᴇᴇ SᴄʀᴇᴇɴSʜᴏᴛ 👇
+<p align="center">
+  <img src="https://te.legra.ph/file/12d811d8bd6d19299f369.jpg" alt="Proud To Say">
+  </p>
+
 ## Dᴇᴘᴏʟʏ
 Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 
