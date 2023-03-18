@@ -6,6 +6,7 @@ import math
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
+from plugins.tamilanbotsz import short_url
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, FILE_REQ_CHANNEL, HOW_TO_DOWNLOAD, \
@@ -384,14 +385,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                9 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await asyncio.sleep(8)
-                await 9.delete()
+                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             elif settings['botpm']:
-                7 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await asyncio.sleep(8)
-                await 7.delete()
+                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             else:
                 await client.send_cached_media(
@@ -404,13 +401,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except UserIsBlocked:
             await query.answer('Fɪʀsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ !', show_alert=True)
         except PeerIdInvalid:
-            8 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-            await asyncio.sleep(8)
-            await 8.delete()
+            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
-            4 = await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-            await asyncio.sleep(30)
-            await 4.delete()
+            await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
             await query.answer("Yᴏ Yᴏ Fɪʀsᴛ Jᴏɪɴ Tʜᴇ Cʜᴀɴɴᴇʟ ᴀɴᴅ Cʟɪᴄᴋ Rᴇғʀᴇsʜ 😒", show_alert=True)
