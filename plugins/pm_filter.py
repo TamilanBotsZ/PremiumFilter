@@ -9,7 +9,7 @@ import pyrogram
 from tamilanbotsz import short_url
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, FILE_REQ_CHANNEL, HOW_TO_DOWNLOAD, \
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, FILE_REQ_CHANNEL, HOW_TO_DOWNLOAD, PICS, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
@@ -397,12 +397,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⛑𝗛ᴏᴡ 𝗧ᴏ 𝗗ᴏᴡɴʟᴏᴀᴅ⛑', url=HOW_TO_DOWNLOAD)
+                    InlineKeyboardButton('🗂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 🗂', url=g)
                 ],
                 [
-                    InlineKeyboardButton('♻️ 𝗗ᴏᴡɴʟᴏᴀᴅ 𝗟ɪɴᴋ ♻️', url=g)
+                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
                 ]]))
-                await query.answer('Check In Private Message, I have sent files in Private Message\n\nPrivate Message la Parunga,Neenga Ketta File Send Panniten', show_alert=True)
+                await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Mʏ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nCʟɪᴄᴋ Mᴇssᴀɢᴇ Bᴜᴛᴛᴏɴ \n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -411,12 +411,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
+            await query.answer("Fɪʀsᴛ Jᴏɪɴ Tʜᴀᴛ Cʜᴀɴɴᴇʟ Aɴᴅ Pʀᴇss Rᴇғʀᴇsʜ Bᴜᴛᴛᴏɴ 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('No such file exist.')
+            return await query.answer('Nᴏ Sᴜᴄʜ A FɪʟE Exɪᴛsᴛ.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
