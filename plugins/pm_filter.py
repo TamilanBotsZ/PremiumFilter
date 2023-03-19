@@ -386,32 +386,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
             elif settings['botpm']:
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
-            else: # Proud Feature By @Tamilan_BotsZ
-                tb = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo=f"{PICS}", caption = f"<b>📕 Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗 Sɪᴢᴇ ➠ : {get_size(files.file_size)} \n\nCʀᴇᴅɪᴛs :: @Tamilan_BotsZ</b>", 
+            else:
+                g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await client.send_photo(chat_id=query.from_user.id, photo='m', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
+                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=H_DOWNLOAD_LINK)
                 ],
                 [
-                    InlineKeyboardButton('😎 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 😎', url=tb)
-                ]])) 
-                await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Bᴏᴛ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
+                    InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+                ]]))
+                await query.answer('Cʟɪᴄᴋ °Cʜᴇᴄᴋ Bᴏᴛ Pᴍ° Bᴜᴛᴛᴏɴ\n\nI Sᴇɴᴛᴇᴅ U ASᴋᴇᴅ Fɪʟᴇs\n\nCᴏᴅᴇᴅᴇᴅ Bʏ @Tᴀᴍɪʟᴀɴ_BᴏᴛsZ', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !', show_alert=True)
+            await query.answer(Fɪʀsᴛ Sᴛᴀʀᴛ Mᴇ Tʜᴇɴ I Wɪʟʟ Sᴇɴᴅ Fɪʟᴇs !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Fɪʀsᴛ Jᴏɪɴ Tʜᴀᴛ Cʜᴀɴɴᴇʟ Aɴᴅ Pʀᴇss Rᴇғʀᴇsʜ Bᴜᴛᴛᴏɴ 😒", show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('Nᴏ Sᴜᴄʜ A FɪʟE Exɪᴛsᴛ.')
+            return await query.answer('Nᴏ Sᴜᴄʜ Fɪʟᴇ Exsɪsᴛ.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
