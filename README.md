@@ -51,7 +51,7 @@
 - `SHORTNER_SITE` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ʟɪɴᴋ ﹝ ᴇɢ ;- shorturllink.in ﹞
 - `SHORTNER_API` 👈 ɢɪᴠᴇ sʜᴏʀᴛɴᴇʀ sɪᴛᴇ ᴀᴩɪ
 
-##👏 Pʀᴏᴜᴅ Tᴏ Sᴀʏ 👏
+## 👏 Pʀᴏᴜᴅ Tᴏ Sᴀʏ 👏
 
 ⚡ Fɪʀsᴛ Tɪᴍᴇ Oɴ Gɪᴛʜᴜʙ ﹛ Oᴩᴇɴ Sᴏᴜʀᴄᴇ ﹜ ⚡
 
