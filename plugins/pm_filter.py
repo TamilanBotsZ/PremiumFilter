@@ -107,11 +107,6 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-
-    btn.insert﹙0, 
-        [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f"{HOW_TO_DOWNLOAD}")
-        ]
     )
     if 0 < offset <= 6:
         off_set = 0
@@ -137,8 +132,8 @@ async def next_page(bot, query):
                 InlineKeyboardButton("Nᴇxᴛ ›››", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-    btn.insert(1, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+    btn.insert(0, [
+        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -402,7 +397,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
                 ]])) # Proud Feature By @Tamilan_BotsZ
-                await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Mʏ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nCʟɪᴄᴋ Mᴇssᴀɢᴇ Bᴜᴛᴛᴏɴ \n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
+                await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Bᴏᴛ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -778,9 +773,7 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]        
 
-    btn.insert(0, 
-        [
-            InlineKeyboardButton(text="⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f"{HOW_TO_DOWNLOAD}")        ]
+        ]
     )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -794,8 +787,8 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-    btn.insert(1, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+    btn.insert(0, [
+        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
