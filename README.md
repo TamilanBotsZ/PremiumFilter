@@ -34,7 +34,6 @@
 - 🔥Lᴏɢ Mᴇssᴀɢᴇ Cʜᴀɴɢᴇᴅ
 - 🔥Mᴀᴅᴇᴅ Bʏ /Tᴀᴍɪʟᴀɴ_BᴏᴛsZ\</b>
 
-
 ### Mᴜsᴛ AᴅᴅVᴀʀɪᴀʙʟᴇs
 
 - `BOT_TOKEN` 👈 ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ғʀᴏᴍ ʙᴏᴛғᴀᴛʜᴇʀ
@@ -58,10 +57,11 @@
 Fɪʀsᴛ Tɪᴍᴇ Tᴏ Aᴅᴅ Tʜɪs Fᴇᴀᴛᴜʀᴇ Oɴ Oᴩᴇɴ Sᴏᴜʀᴄᴇ Rᴇᴩᴏ
 
 
-Pᴏsᴛ Sʜᴏʀᴛɴᴇʀ Lɪɴᴋ Fᴇᴀᴛᴜʀᴇ 
-Cᴀɴ'ᴛ Uɴᴅᴇʀsᴛᴀɴ ﹖ Sᴇᴇ SᴄʀᴇᴇɴSʜᴏᴛ 👇
+Pᴏsᴛ Sʜᴏʀᴛɴᴇʀ Lɪɴᴋ Fᴇᴀᴛᴜʀᴇ 😗
+
+Cᴀɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ﹖ Sᴇᴇ SᴄʀᴇᴇɴSʜᴏᴛ 👇
 <p align="center">
-  <img src="https://te.legra.ph/file/12d811d8bd6d19299f369.jpg" alt="Proud To Say">
+  <img src="https://graph.org/file/21483ea00b3d273b8b9cb.jpg" alt="Proud To Say">
   </p>
 
 ## Dᴇᴘᴏʟʏ
