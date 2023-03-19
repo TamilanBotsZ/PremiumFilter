@@ -107,7 +107,7 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-    )
+    
     if 0 < offset <= 6:
         off_set = 0
     elif offset == 0:
@@ -774,7 +774,7 @@ async def auto_filter(client, msg, spoll=False):
         ]        
 
         ]
-    )
+    
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
