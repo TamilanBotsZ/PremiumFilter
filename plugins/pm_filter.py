@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+# Codeded By @Tamilan_BotsZ
 import asyncio
 import re
 import ast
@@ -387,16 +387,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             else: # Proud Feature By @Tamilan_BotsZ
-                g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                tb = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 await client.send_photo(chat_id=query.from_user.id, photo=f"{PICS}", caption = f"<b>📕 Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗 Sɪᴢᴇ ➠ : {get_size(files.file_size)} \n\nCʀᴇᴅɪᴛs :: @Tamilan_BotsZ</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🗂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 🗂', url=g)
+                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
                 ],
                 [
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
-                ]])) # Proud Feature By @Tamilan_BotsZ
+                    InlineKeyboardButton('😎 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 😎', url=tb)
+                ]])) 
                 await query.answer('Cʟɪᴄᴋ ´ Cʜᴇᴄᴋ Bᴏᴛ Pᴍ` Bᴜᴛᴛᴏɴ ➥\n\nDᴏᴡɴʟᴏᴀᴅ Aɴᴅ Eɴᴊᴏʏ \n\nCʀᴇᴅɪᴛs :: Tᴀᴍɪʟᴀɴ BᴏᴛsZ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
