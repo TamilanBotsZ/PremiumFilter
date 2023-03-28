@@ -13,7 +13,7 @@ async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴜʀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜɪs ʙᴏᴛ ᴜsᴇʀs...'
+        text='Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ Yᴏᴜʀ Mᴇssᴀɢᴇ Tᴏ Yᴏᴜʀ Bᴏᴛ Usᴇʀs 😗 Sᴜᴩᴩᴏʀᴛ ﹝ ᴛᴀᴍɪʟᴀɴ_ʙᴏᴛsᴢ ﹞...'
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -37,6 +37,6 @@ async def verupikkals(bot, message):
         done += 1
         await asyncio.sleep(2)
         if not done % 20:
-            await sts.edit(f"ʙʀᴏᴀᴅᴄᴀsᴛ ɪɴ ᴘʀᴏɢʀᴇss:\n\nᴛᴏᴛᴀʟ ᴜsᴇʀs {total_users}\nᴄᴏᴍᴘʟᴇᴛᴇᴅ: {done} / {total_users}\nsᴜᴄᴄᴇss: {success}\nʙʟᴏᴄᴋᴇᴅ: {blocked}\nᴅᴇʟᴇᴛᴇᴅ: {deleted}")    
+            await sts.edit(f"Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ Nᴏᴡ:\n\nTᴏᴛᴀʟ Usᴇʀs ﹦ {total_users}\nCᴏᴍᴩʟᴇᴛᴇᴅ ﹦ {done} / {total_users}\nSᴜᴄᴄᴇss ﹦ {success}\nBʟᴏᴄᴋᴇᴅ ﹦ {blocked}\nDᴇʟᴇᴛᴇᴅ ﹦ {deleted}")    
     time_taken = datetime.timedelta(seconds=int(time.time()-start_time))
-    await sts.edit(f"ʙʀᴏᴀᴅᴄᴀsᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴄᴏᴍᴘʟᴇᴛᴇᴅ:\nʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ{time_taken} sᴇᴄᴏɴᴅs.\n\nᴛᴏᴛᴀʟ ᴜsᴇʀs {total_users}\nᴄᴏᴍᴘʟᴇᴛᴇᴅ: {done} / {total_users}\nsᴜᴄᴄᴇss: {success}\nʙʟᴏᴄᴋᴇᴅ: {blocked}\nᴅᴇʟᴇᴛᴇᴅ: {deleted}")
+    await sts.edit(f"Bʀᴏᴀᴅᴄᴀsᴛ Cᴏᴍᴩʟᴇᴛᴇᴅ ﹦\nCᴏᴍᴩʟᴇᴛᴇᴅ Iɴ ﹦ {time_taken} Sᴇᴄᴏɴᴅs.\n\nTᴏᴛᴀʟ Usᴇʀs ﹦ {total_users}\nCᴏᴍᴩʟᴇᴛᴇᴅ {done} / {total_users}\nSᴜᴄᴇss ﹦ {success}\nBʟᴏᴄᴋᴇᴅ ﹦ {blocked}\nDeleted: {deleted}")
