@@ -1,4 +1,1 @@
-python-3.10
-#.     👆👆
-# change 3.10 to 3.11.2
-# change if you depoly my repo in heroku or koyeb
+python-3.10.9
