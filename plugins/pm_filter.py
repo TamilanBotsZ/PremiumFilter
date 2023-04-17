@@ -9,7 +9,7 @@ import pyrogram
 from tamilanbotsz import short_url
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, FILE_REQ_CHANNEL, HOW_TO_DOWNLOAD, PICS, \
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, FILE_REQ_CHANNEL, HOW_TO_DOWNLOAD, PICS, AUTO_DELETE, AUTO_DELETE_SECONDS, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters, enums
@@ -817,22 +817,30 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>😙 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention} \n\n😊 Yᴏᴜʀ Qᴜᴇʀʏ : {search} \n\n📂 Tᴏᴛᴀʟ Fɪʟᴇs Fᴏᴜɴᴅᴇᴅ : {str(total_results)} \n\n ▶️ Pᴏᴡᴇʀᴇᴅ Bʏ : @OxooFlix</b>"
     if imdb and imdb.get('poster'):
         try:
-            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(AUTO_DELETE_SECONDS)
-            await hehe.delete()            
+            hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+                                      reply_markup=InlineKeyboardMarkup(btn))
+            if AUTO_DELETE:
+                await asyncio.sleep(AUTO_DELETE_SECONDS)
+                await hehe.delete()
+
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(AUTO_DELETE_SECONDS)            
+            hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            if AUTO_DELETE:
+                await asyncio.sleep(AUTO_DELETE_SECONDS)
+                await hmm.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(AUTO_DELETE_SECONDS)            
+            fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            if AUTO_DELETE:
+                await asyncio.sleep(AUTO_DELETE_SECONDS)
+                await fek.delete()
     else:
-        fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(AUTO_DELETE_SECONDS)
-        await fuk.delete()
+        fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        if AUTO_DELETE:
+            await asyncio.sleep(AUTO_DELETE_SECONDS)
+            await fuk.delete()
 
 
 async def advantage_spell_chok(msg):
