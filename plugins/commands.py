@@ -428,7 +428,7 @@ async def settings(client, message):
                 ),
                 InlineKeyboardButton(
                     '✅ Yes' if settings["botpm"] else '❌ No',
-                    callback_data=f'setgs#botopm#{settings["botopm"]}#{grp_id}',
+                    callback_data=f'setgs#botpm#{settings["botpm"]}#{grp_id}',
                 ),
             ],
             [
