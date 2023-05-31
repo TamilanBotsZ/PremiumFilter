@@ -84,7 +84,11 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" ↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**YOU ARE NOT Join IN OUR BACK-UP CHANNEL IF YOU WANT THE MOVIE FILE, CLICK ON THE 'JOIN OUR BACK-UP CHANNEL' BUTTON BELOW AND JOIN OUR BACK-UP CHANNEL, THEN CLICK ON THE 'TRY AGAIN' BUTTON BELOW... \n\nTHEN YOU WILL GET THE MOVIE FILES...**",
+            text="**YOU ARE NOT JOIN IN OUR BACK-UP CHANNEL GIVEN BELOW SO YOU DON'T GET THE MOVIE FILE...
+
+IF YOU WANT THE MOVIE FILE, CLICK ON THE JOIN OUR BACK-UP CHANNEL ' BUTTON BELOW AND JOIN OUR BACK-UP CHANNEL, THEN CLICK ON THE '↻ TRY AGAIN' BUTTON BELOW...
+
+THEN YOU WILL GET THE MOVIE FILES...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
