@@ -84,11 +84,11 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" ↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Follow my step get movie files🥰 
+            text="Follow my step get movie files🥰 
 
 STEP:1 First click join back up channel button to join backup channel 
 
-STEP:2 and back to the click Try again button you get your Movie file thanks**",
+STEP:2 and back to the click Try again button you get your Movie file thanks",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
