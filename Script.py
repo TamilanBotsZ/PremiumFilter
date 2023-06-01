@@ -26,9 +26,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : RENDER 
-📢 Movie Group : <a href=https://t.me/tamilmovies4Krio>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🥰 My best friend : <a href={message.from_user.first_name"""
-
+📢 Movie Group : <a href=https://t.me/tamilmovies4Krio>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ 
 
 - 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/creatorrio>RIO</a>
