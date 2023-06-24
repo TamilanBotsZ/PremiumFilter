@@ -16,7 +16,7 @@ async def share_text(client, message):
         await message.reply_text(
             text=f"**Nᴏᴛɪᴄᴇ:**\n\n1. Rᴇᴩʟʏ Tᴏ Aɴʏ Mᴇssᴀɢᴇ.\n2. Nᴏ Mᴇᴅɪᴀ Sᴜᴩᴩᴏʀᴛ ﹝ sᴜᴩᴩᴏʀᴛs ᴏɴʟʏ ᴛᴇxᴛ ﹞\n\n**Jᴏɪɴ Nᴏᴡ Oᴜʀ Uᴩᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ**",                
             reply_to_message_id=reply_id,               
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 Uᴩᴅᴀᴛᴇs 💥", url=f"https://t.me/Tamilan_BotsZ")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 Uᴩᴅᴀᴛᴇs 💥", url=f"https://t.me/+HMo4S0heOUllMWVl")]])
             )                                                   
         return
     await message.reply_text(
