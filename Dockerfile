@@ -1,6 +1,4 @@
-FROM python:3.10.9
-#.          👆👆
-#change 3.10 to 3.11.2 if you depolying heroku or koyeb
+FROM python:3.10.9      
 
 WORKDIR /TamilanBotsz
 
