@@ -326,7 +326,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer(' ˆ°• Tᴀᴍɪʟᴀɴ BᴏᴛsZ •°ˆ ')
+            return await query.answer(' ˆ°• RIO NETWORKS •°ˆ ')
         buttons = []
         for groupid in groupids:
             try:
@@ -495,7 +495,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('🖥️ MY UPDATES 🖥️', url=https://t.me/Teamrioupdates')
+            InlineKeyboardButton('MY UPDATES', url=https://t.me/Teamrioupdates')
         ],[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]       
@@ -578,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('🖥️ My updates 🖥️', url='https://t.me/Teamrioupdates')
+            InlineKeyboardButton('My updates', url='https://t.me/Teamrioupdates')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('🖥️ My Updates 🖥️', url='https://t.me/Teamrioupdates')
+            InlineKeyboardButton('My Updates', url='https://t.me/Teamrioupdates')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
