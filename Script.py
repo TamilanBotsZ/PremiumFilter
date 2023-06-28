@@ -27,17 +27,22 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : RENDER 
 📢 Movie Group : <a href=https://t.me/tamilmovies4Krio>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
-    SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ 
+    SOURCES_TXT ="""MY bots 👇
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/creatorrio>RIO</a>
+new bots coming soon so join my uptades
+  
+-<a href=https://t.me/teamriorenamer_bot>2GB File support Rename Bot</a>
 
-- & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+<a href=https://t.me/Tamilmoviesrio_bot>Auto Filter bot only made Tamil language</a>"""
 
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄt
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/creatorrio>RIO</a></b>
+    SOURCE_TXT ="""MY bots 👇
 
-- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+new bots coming soon so join my uptades
+  
+-<a href=https://t.me/teamriorenamer_bot>2GB File support Rename Bot</a>
+
+<a href=https://t.me/Tamilmoviesrio_bot>Auto Filter bot only made Tamil language</a>"""
 
     FONT_TXT = """I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
 
