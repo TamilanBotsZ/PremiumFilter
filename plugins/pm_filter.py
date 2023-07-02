@@ -89,7 +89,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[ <a href={Temp_U_>Heroku</a>
+                    text=f"[ <a href=https://t.me/{temp.U_NAME}?start={pre}_{query.message.chat.id}_{file.file_id}')>{get_size(file.file_id} {file.file_name}</a>
                 ),
             ]
             for file in files
@@ -98,11 +98,10 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f <a href=https://t.me/{temp.U_NAME}?start={pre}_{query.message.chat.id}_{file.file_id}')>{get_size(file.file_id} {file.file_name}</a>
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
-                    callback_data=f'files_#{file.file_id}',
+                    text=f <a href=https://t.me/{temp.U_NAME}?start={pre}_{query.message.chat.id}_{file.file_id}')>{get_size(file.file_id} {file.file_name}</a>
                 ),
             ]
             for file in files
