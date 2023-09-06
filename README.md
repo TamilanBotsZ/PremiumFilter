@@ -4,6 +4,8 @@
   </p>
   <h1 align="center">
     <b>Pʀᴇᴍɪᴜᴍ Fɪʟᴛᴇʀ Rᴇᴩᴏ</b>
+
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TamilanBotsZ/PremiumFilter)   
     </h1>
 
 # 👩‍💻 Cᴏᴅᴇᴅᴇᴅ Bʏ TᴀᴍɪʟᴀɴBᴏᴛsZ
